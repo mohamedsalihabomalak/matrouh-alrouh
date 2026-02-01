@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعم مطروح الروح - Matrouh Al-Rouh Support</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1E88E5;
+            --secondary: #0D47A1;
+            --success: #4CAF50;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-gray: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-gray);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            display: inline-block;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1 { margin: 10px 0; font-size: 28px; }
+        .tagline { font-size: 16px; opacity: 0.9; }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--success);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 25px;
+            box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(76, 175, 80, 0.4);
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--secondary);
+            border-bottom: 2px solid #eef2f3;
+            padding-bottom: 10px;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+
+        .info-icon {
+            background: rgba(30, 136, 229, 0.1);
+            color: var(--primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 20px;
+        }
+
+        .contact-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        ul { padding-right: 20px; }
+        li { margin-bottom: 10px; }
+
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            header { padding: 30px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="app-icon">
+                <!-- Using a placeholder icon as we don't have the web asset URL yet -->
+                <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/maps/beach_access/materialicons/48dp/2x/baseline_beach_access_black_48dp.png" alt="Icon">
+            </div>
+            <h1>مطروح الروح</h1>
+            <div class="tagline">دليل خدمات شامل ومنصة تسويق رقمي</div>
+            <a href="#" class="download-btn">📲 حمل التطبيق الآن</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <div class="card">
+            <h2>ℹ️ عن التطبيق</h2>
+            <p>تطبيق <strong>مطروح الروح</strong> هو دليل خدمات رقمي شامل ومنصة إعلانات تهدف إلى تسهيل وصول الزوار والمصطافين إلى أفضل الخدمات في مدينة مرسى مطروح.</p>
+            <p>يوفر التطبيق معلومات دقيقة عن الشقق، الفنادق، الشاليهات، المطاعم، المواصلات، والشواطئ، مع إمكانية التواصل المباشر مع مقدمي الخدمات لضمان أفضل تجربة سياحية.</p>
+        </div>
+
+        <!-- Privacy Policy -->
+        <div class="card">
+            <h2>🛡️ سياسة الخصوصية</h2>
+            <div class="info-item">
+                <div>
+                    <strong>جمع البيانات:</strong>
+                    <p>البيانات المسجلة في التطبيق هي بيانات مقدمي الخدمات فقط (المالكين وأصحاب الخدمات). لا يتم جمع أو تخزين أي بيانات خاصة بالمستخدمين الذين يتصفحون التطبيق.</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div>
+                    <strong>حقوق مقدمي الخدمات:</strong>
+                    <p>يحق لمقدم الخدمة طلب حذف بياناته في أي وقت، كما يحق لإدارة التطبيق حذف أي بيانات في حال عدم الالتزام بالشفافية والصدق.</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div>
+                    <strong>المسؤولية:</strong>
+                    <p>يعمل التطبيق كمنصة عرض فقط، والتواصل والاتفاقات المالية تتم مباشرة بين المستخدم ومقدم الخدمة دون تدخل من إدارة التطبيق.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terms of Use -->
+        <div class="card">
+            <h2>📝 شروط الاستخدام</h2>
+            <ul>
+                <li>التطبيق هو دليل خدمات رقمي ومنصة عرض إعلانات فقط.</li>
+                <li>كل تواصل يتم عبر التطبيق هو تواصل مباشر بين المستخدم ومقدم الخدمة.</li>
+                <li>التطبيق غير مسؤول عن أي اتفاقات مالية أو خلافات تنشأ بين الطرفين.</li>
+                <li>يجب على المستخدمين ومقدمي الخدمات الالتزام بالصدق والشفافية.</li>
+                <li>لإدارة التطبيق الحق في تعديل الشروط مستقبلاً وسيتم إبلاغ المستخدمين بذلك.</li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+            <h2>📞 معلومات التواصل</h2>
+            <div class="info-item">
+                <div class="info-icon">📱</div>
+                <div>
+                    <strong>الهاتف:</strong><br>
+                    <a href="tel:01062186746" class="contact-link">01062186746</a>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon">📧</div>
+                <div>
+                    <strong>البريد الإلكتروني:</strong><br>
+                    <a href="mailto:abomalak666666666666@gmail.com" class="contact-link">abomalak666666666666@gmail.com</a>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                    <strong>الموقع:</strong><br>
+                    مدينة مرسى مطروح، مصر
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2025 - مطروح الروح</p>
+        </div>
+    </footer>
+
+</body>
+</html>
