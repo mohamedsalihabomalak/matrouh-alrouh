@@ -3,139 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دعم مطروح الروح - Matrouh Al-Rouh Support</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <title>تطبيق مطروح الروح - دليل مرسى مطروح الشامل | Direct Booking</title>
+    <meta name="description" content="تطبيق مطروح الروح هو دليلك السياحي الشامل في مرسى مطروح لحجز فنادق، شقق للإيجار، شاليهات، مطاعم، شواطئ، ومواصلات بدون وسيط (Direct Booking).">
+    <meta name="keywords" content="مطروح الروح, تطبيق مطروح الروح, تحميل تطبيق مطروح الروح, دليل مطروح, حجز فنادق مطروح, شقق للايجار, شاليهات, مطاعم مطروح, مواصلات, رحلات بحرية, Direct Booking">
+    <link rel="canonical" href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <style>
         :root {
-            --primary: #1E88E5;
-            --secondary: #0D47A1;
-            --success: #4CAF50;
-            --text-dark: #333;
-            --text-light: #666;
-            --bg-gray: #f4f7f6;
+            /* ألوان مستوحاة من بحر وشمس مطروح */
+            --ocean-blue: #0077B6;
+            --turquoise: #00B4D8;
+            --sun-gold: #FFB703;
+            --text-dark: #2B2D42;
+            --text-light: #6C757D;
+            --bg-color: #F8F9FA;
+            --card-bg: #FFFFFF;
         }
+
+        * { box-sizing: border-box; }
 
         body {
             font-family: 'Cairo', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: var(--bg-gray);
+            background-color: var(--bg-color);
             color: var(--text-dark);
-            line-height: 1.6;
+            line-height: 1.8;
+            overflow-x: hidden;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0 20px;
         }
 
+        /* الهيدر - واجهة التطبيق */
         header {
+            position: relative;
             text-align: center;
-            padding: 40px 0;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 60px 20px 80px;
+            background: linear-gradient(135deg, var(--ocean-blue), var(--turquoise));
             color: white;
-            border-bottom-left-radius: 40px;
-            border-bottom-right-radius: 40px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-bottom-left-radius: 50% 15%;
+            border-bottom-right-radius: 50% 15%;
+            box-shadow: 0 10px 30px rgba(0, 119, 182, 0.2);
+            overflow: hidden;
         }
 
-        .app-icon {
-            width: 120px;
-            height: 120px;
-            background: white;
-            border-radius: 25px;
-            margin-bottom: 20px;
-            padding: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            display: inline-block;
+        .logo-circle {
+            width: 130px;
+            height: 130px;
+            background: var(--card-bg);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border: 4px solid var(--sun-gold);
+            position: relative;
+            z-index: 2;
         }
 
-        .app-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
+        .logo-circle .material-icons {
+            font-size: 60px;
+            color: var(--ocean-blue);
+            background: -webkit-linear-gradient(var(--ocean-blue), var(--turquoise));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        h1 { margin: 10px 0; font-size: 28px; }
-        .tagline { font-size: 16px; opacity: 0.9; }
+        h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 2;
+        }
 
+        .tagline {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-top: 10px;
+            font-weight: 600;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* زرار التحميل مع تأثير النبض */
         .download-btn {
-            display: inline-block;
-            background-color: var(--success);
-            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--sun-gold);
+            color: #fff;
             padding: 15px 40px;
-            border-radius: 30px;
+            border-radius: 50px;
             text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            margin-top: 25px;
-            box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
-            transition: transform 0.2s, box-shadow 0.2s;
+            font-weight: 800;
+            font-size: 1.2rem;
+            margin-top: 30px;
+            box-shadow: 0 6px 20px rgba(255, 183, 3, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 2;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 6px 20px rgba(255, 183, 3, 0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 6px 25px rgba(255, 183, 3, 0.6); }
+            100% { transform: scale(1); box-shadow: 0 6px 20px rgba(255, 183, 3, 0.4); }
         }
 
         .download-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(76, 175, 80, 0.4);
+            background-color: #FFA700;
+            transform: translateY(-3px) scale(1.05);
+        }
+
+        /* الكروت */
+        .cards-wrapper {
+            margin-top: -40px;
+            position: relative;
+            z-index: 10;
         }
 
         .card {
-            background: white;
+            background: var(--card-bg);
             border-radius: 20px;
-            padding: 25px;
-            margin: 20px 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+            border-top: 4px solid transparent;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
         }
 
+        .card-about { border-top-color: var(--turquoise); }
+        .card-privacy { border-top-color: var(--ocean-blue); }
+        .card-terms { border-top-color: var(--sun-gold); }
+        .card-contact { border-top-color: #4CAF50; }
+
         h2 {
-            color: var(--secondary);
-            border-bottom: 2px solid #eef2f3;
-            padding-bottom: 10px;
+            color: var(--ocean-blue);
+            font-size: 1.6rem;
+            border-bottom: 2px solid #E9ECEF;
+            padding-bottom: 15px;
             margin-top: 0;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+        }
+
+        h2 .material-icons {
+            background: rgba(0, 180, 216, 0.1);
+            padding: 8px;
+            border-radius: 12px;
+            color: var(--turquoise);
         }
 
         .info-item {
             display: flex;
             gap: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             align-items: flex-start;
+            background: #FAFAFA;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid #EEEEEE;
         }
 
-        .info-icon {
-            background: rgba(30, 136, 229, 0.1);
-            color: var(--primary);
-            width: 40px;
-            height: 40px;
+        .info-item p { margin: 5px 0 0; color: var(--text-light); }
+        .info-item strong { color: var(--text-dark); font-size: 1.1rem; }
+
+        .contact-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: #F8F9FA;
+            border-radius: 15px;
+            transition: background 0.3s;
+        }
+
+        .contact-card:hover { background: #E9ECEF; }
+        .contact-icon {
+            background: white;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-shrink: 0;
-            font-size: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            color: var(--ocean-blue);
         }
 
         .contact-link {
-            color: var(--primary);
+            color: var(--ocean-blue);
             text-decoration: none;
-            font-weight: 600;
+            font-weight: 700;
+            font-size: 1.1rem;
         }
+
+        ul { padding-right: 25px; color: var(--text-light); }
+        li { margin-bottom: 12px; }
 
         footer {
             text-align: center;
-            padding: 40px;
+            padding: 40px 20px;
             color: var(--text-light);
-            font-size: 14px;
+            font-size: 1rem;
+            font-weight: 600;
         }
 
-        ul { padding-right: 20px; }
-        li { margin-bottom: 10px; }
-
+        /* استجابة الموبايل */
         @media (max-width: 600px) {
-            .container { padding: 15px; }
-            header { padding: 30px 0; }
+            h1 { font-size: 2.2rem; }
+            .tagline { font-size: 1.1rem; }
+            .card { padding: 25px 20px; }
+            .download-btn { padding: 15px 30px; font-size: 1.1rem; }
         }
     </style>
 </head>
@@ -143,40 +245,48 @@
 
     <header>
         <div class="container">
-            <div class="app-icon">
-                <!-- Using a placeholder icon as we don't have the web asset URL yet -->
-                <img src="https://raw.githubusercontent.com/google/material-design-icons/master/png/maps/beach_access/materialicons/48dp/2x/baseline_beach_access_black_48dp.png" alt="Icon">
+            <div class="logo-circle">
+                <span class="material-icons">beach_access</span>
             </div>
             <h1>مطروح الروح</h1>
-            <div class="tagline">دليل خدمات شامل ومنصة تسويق رقمي</div>
-            <a href="#" class="download-btn">📲 حمل التطبيق الآن</a>
+            <div class="tagline">دليل خدمات شامل | حجز مباشر بدون وسيط</div>
+            
+            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="download-btn">
+                <span class="material-icons">android</span>
+                حمل التطبيق الآن
+            </a>
         </div>
     </header>
 
-    <div class="container">
-        <!-- About Section -->
-        <div class="card">
-            <h2>ℹ️ عن التطبيق</h2>
-            <p>تطبيق <strong>مطروح الروح</strong> هو دليل خدمات رقمي شامل ومنصة إعلانات تهدف إلى تسهيل وصول الزوار والمصطافين إلى أفضل الخدمات في مدينة مرسى مطروح.</p>
-            <p>يوفر التطبيق معلومات دقيقة عن الشقق، الفنادق، الشاليهات، المطاعم، المواصلات، والشواطئ، مع إمكانية التواصل المباشر مع مقدمي الخدمات لضمان أفضل تجربة سياحية.</p>
+    <div class="container cards-wrapper">
+        
+        <div class="card card-about">
+            <h2><span class="material-icons">info</span> عن التطبيق</h2>
+            <p style="color: var(--text-light);">تطبيق <strong>مطروح الروح</strong> هو دليل خدمات رقمي شامل ومنصة إعلانات تهدف إلى تسهيل وصول الزوار والمصطافين إلى أفضل الخدمات في مدينة مرسى مطروح.</p>
+            <p style="color: var(--text-light);">يوفر التطبيق معلومات دقيقة عن الشقق، الفنادق، الشاليهات، المطاعم، المواصلات، والشواطئ، مع إمكانية التواصل المباشر (Direct Booking) مع مقدمي الخدمات لضمان أفضل تجربة سياحية.</p>
         </div>
 
-        <!-- Privacy Policy -->
-        <div class="card">
-            <h2>🛡️ سياسة الخصوصية</h2>
+        <div class="card card-privacy">
+            <h2><span class="material-icons">security</span> سياسة الخصوصية</h2>
+            
             <div class="info-item">
+                <span class="material-icons" style="color: var(--turquoise);">data_usage</span>
                 <div>
                     <strong>جمع البيانات:</strong>
                     <p>البيانات المسجلة في التطبيق هي بيانات مقدمي الخدمات فقط (المالكين وأصحاب الخدمات). لا يتم جمع أو تخزين أي بيانات خاصة بالمستخدمين الذين يتصفحون التطبيق.</p>
                 </div>
             </div>
+            
             <div class="info-item">
+                <span class="material-icons" style="color: var(--sun-gold);">delete_sweep</span>
                 <div>
-                    <strong>حقوق مقدمي الخدمات:</strong>
+                    <strong>حقوق مقدمي الخدمات (حذف البيانات):</strong>
                     <p>يحق لمقدم الخدمة طلب حذف بياناته في أي وقت، كما يحق لإدارة التطبيق حذف أي بيانات في حال عدم الالتزام بالشفافية والصدق.</p>
                 </div>
             </div>
+            
             <div class="info-item">
+                <span class="material-icons" style="color: var(--ocean-blue);">gavel</span>
                 <div>
                     <strong>المسؤولية:</strong>
                     <p>يعمل التطبيق كمنصة عرض فقط، والتواصل والاتفاقات المالية تتم مباشرة بين المستخدم ومقدم الخدمة دون تدخل من إدارة التطبيق.</p>
@@ -184,9 +294,8 @@
             </div>
         </div>
 
-        <!-- Terms of Use -->
-        <div class="card">
-            <h2>📝 شروط الاستخدام</h2>
+        <div class="card card-terms">
+            <h2><span class="material-icons">article</span> شروط الاستخدام</h2>
             <ul>
                 <li>التطبيق هو دليل خدمات رقمي ومنصة عرض إعلانات فقط.</li>
                 <li>كل تواصل يتم عبر التطبيق هو تواصل مباشر بين المستخدم ومقدم الخدمة.</li>
@@ -196,29 +305,34 @@
             </ul>
         </div>
 
-        <!-- Contact Section -->
-        <div class="card">
-            <h2>📞 معلومات التواصل</h2>
-            <div class="info-item">
-                <div class="info-icon">📱</div>
-                <div>
-                    <strong>الهاتف:</strong><br>
-                    <a href="tel:01062186746" class="contact-link">01062186746</a>
+        <div class="card card-contact">
+            <h2><span class="material-icons">contact_support</span> معلومات التواصل</h2>
+            <div class="contact-list">
+                
+                <div class="contact-card">
+                    <div class="contact-icon"><span class="material-icons">phone_iphone</span></div>
+                    <div>
+                        <span style="font-size: 0.9rem; color: var(--text-light);">الهاتف</span><br>
+                        <a href="tel:01062186746" class="contact-link" dir="ltr">010 6218 6746</a>
+                    </div>
                 </div>
-            </div>
-            <div class="info-item">
-                <div class="info-icon">📧</div>
-                <div>
-                    <strong>البريد الإلكتروني:</strong><br>
-                    <a href="mailto:abomalak666666666666@gmail.com" class="contact-link">abomalak666666666666@gmail.com</a>
+
+                <div class="contact-card">
+                    <div class="contact-icon"><span class="material-icons">email</span></div>
+                    <div>
+                        <span style="font-size: 0.9rem; color: var(--text-light);">البريد الإلكتروني</span><br>
+                        <a href="mailto:abomalak666666666666@gmail.com" class="contact-link" style="font-size: 0.9rem;">abomalak666666666666@gmail.com</a>
+                    </div>
                 </div>
-            </div>
-            <div class="info-item">
-                <div class="info-icon">📍</div>
-                <div>
-                    <strong>الموقع:</strong><br>
-                    مدينة مرسى مطروح، مصر
+
+                <div class="contact-card">
+                    <div class="contact-icon"><span class="material-icons">place</span></div>
+                    <div>
+                        <span style="font-size: 0.9rem; color: var(--text-light);">الموقع</span><br>
+                        <strong>مدينة مرسى مطروح، مصر</strong>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
