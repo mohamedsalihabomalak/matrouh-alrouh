@@ -1,513 +1,928 @@
+```html
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>تطبيق مطروح الروح - دليل مرسى مطروح الشامل | حجز مباشر بدون وسيط</title>
-    <meta name="description" content="دليلك السياحي والخدمي الشامل لمدينة مرسى مطروح. حجز شقق، فنادق، شاليهات، شواطئ، مواصلات، رحلات داخلية، وأنشطة ترفيهية مباشرة من المالك بدون عمولات.">
-    <meta name="keywords" content="مطروح الروح, دليل مطروح, شقق للايجار بمطروح, فنادق مرسى مطروح, شواطئ مطروح, مواصلات مطروح, رحلات يخوت, سفاري مطروح, اكل بيتي مطروح, فنيين مطروح, حجز مباشر">
-    <link rel="canonical" href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "مطروح الروح",
-      "operatingSystem": "Android",
-      "applicationCategory": "TravelApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "EGP"
-      },
-      "downloadUrl": "https://play.google.com/store/apps/details?id=com.mr.matrouhrouh"
-    }
-    </script>
+<title>مطروح الروح | دليلك السياحي والخدمي الشامل لمرسى مطروح</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <style>
-        :root {
-            --ocean-blue: #0077B6;
-            --turquoise: #00B4D8;
-            --sun-gold: #FFB703;
-            --text-dark: #2B2D42;
-            --text-light: #6C757D;
-            --bg-color: #F4F7F9;
-            --card-bg: #FFFFFF;
-        }
+<meta name="description" content="مطروح الروح الإصدار 1.1.2: دليلك الشامل لمرسى مطروح. اكتشف الشقق المصيفية والفنادق والمطاعم والشواطئ وحالة البحر والطقس والرحلات البحرية والمواصلات والخدمات الطبية والمنزلية والمحلات، مع الخرائط وميزة الأقرب إليك والتواصل المباشر.">
 
-        * { box-sizing: border-box; scroll-behavior: smooth; }
+<meta name="keywords" content="مطروح الروح, مرسى مطروح, شقق مصيفية في مطروح, شقق للإيجار في مرسى مطروح, فنادق مطروح, شاليهات مطروح, شواطئ مطروح, حالة البحر مطروح, طقس مرسى مطروح, مطاعم مطروح, كافيهات مطروح, تاكسي مطروح, مواصلات مطروح, خدمات طبية مطروح, عيادات مطروح, صيدليات مطروح, رحلات بحرية, يخوت مطروح, سفاري مطروح, أكوا بارك مطروح, دليل مطروح السياحي">
 
-        body {
-            font-family: 'Cairo', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-dark);
-            line-height: 1.8;
-        }
+<meta name="author" content="مطروح الروح">
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+<meta name="robots" content="index, follow, max-image-preview:large">
 
-        /* الهيدر الرئيسي */
-        header {
-            text-align: center;
-            padding: 50px 20px 70px;
-            background: linear-gradient(135deg, var(--ocean-blue), var(--turquoise));
-            color: white;
-            border-bottom-left-radius: 40px;
-            border-bottom-right-radius: 40px;
-            box-shadow: 0 10px 30px rgba(0, 119, 182, 0.15);
-        }
+<meta name="theme-color" content="#007f95">
 
-        .logo-area {
-            width: 110px;
-            height: 110px;
-            background: white;
-            border-radius: 50%;
-            margin: 0 auto 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 4px solid var(--sun-gold);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-        }
+<link rel="canonical" href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">
 
-        .logo-area .material-icons {
-            font-size: 55px;
-            color: var(--ocean-blue);
-        }
+<meta property="og:type" content="website">
+<meta property="og:title" content="مطروح الروح | رحلة جوه الرحلة">
+<meta property="og:description" content="اكتشف مرسى مطروح من مكان واحد. الإقامة والشواطئ والمطاعم والترفيه والمواصلات والخدمات اليومية.">
+<meta property="og:url" content="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:site_name" content="مطروح الروح">
 
-        header h1 { margin: 0; font-size: 2.5rem; font-weight: 900; }
-        header .tagline { font-size: 1.2rem; opacity: 0.9; margin-top: 5px; font-weight: 600; }
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="مطروح الروح">
+<meta name="twitter:description" content="دليلك الشامل لاكتشاف مرسى مطروح">
 
-        /* القائمة العائمة للتنقل السريع (عناكب وجبّارة للمستخدم) */
-        .nav-scroller {
-            position: sticky;
-            top: 0;
-            background: white;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            z-index: 100;
-            padding: 10px 0;
-            overflow-x: auto;
-            white-space: nowrap;
-            -webkit-overflow-scrolling: touch;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-        .nav-links { display: flex; gap: 10px; padding: 0 15px; }
-        .nav-links a {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: #EBF8FF;
-            color: var(--ocean-blue);
-            padding: 8px 16px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 0.9rem;
-            transition: all 0.2s;
-            border: 1px solid rgba(0, 180, 216, 0.15);
-        }
-        .nav-links a:hover { background: var(--ocean-blue); color: white; }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "مطروح الروح",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "Android",
+  "inLanguage": "ar",
+  "description": "دليل سياحي وخدمي لمدينة مرسى مطروح يضم الإقامات والمطاعم والشواطئ والطقس والأنشطة الترفيهية والمواصلات والخدمات الطبية والتجارية.",
+  "softwareVersion": "1.1.2",
+  "url": "https://mohamedsalihabomalak.github.io/matrouh-alrouh/",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.mr.matrouhrouh"
+}
+</script>
 
-        /* أزرار تحميل التطبيق الاحترافية */
-        .btn-dl {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            background: linear-gradient(135deg, var(--sun-gold), #FFA700);
-            color: white;
-            padding: 12px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1rem;
-            margin: 15px 0;
-            box-shadow: 0 5px 15px rgba(255, 183, 3, 0.35);
-            transition: all 0.3s ease;
-        }
-        .btn-dl:hover { transform: translateY(-2px); box-shadow: 0 7px 20px rgba(255, 183, 3, 0.5); }
-        .pulse { animation: pulse-anim 2.5s infinite; }
-        @keyframes pulse-anim {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.03); }
-            100% { transform: scale(1); }
-        }
+<style>
+:root {
+  --blue:#007f95;
+  --deep:#004d66;
+  --cyan:#21b8c5;
+  --light:#eafaff;
+  --sand:#f6ead2;
+  --text:#173747;
+  --white:#fff;
+}
 
-        /* تصميم الأقسام (الـ 10 صفحات) */
-        section {
-            background: var(--card-bg);
-            border-radius: 24px;
-            padding: 30px;
-            margin: 30px 0;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.03);
-            border-right: 6px solid var(--ocean-blue);
-        }
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-        section h2 {
-            color: var(--ocean-blue);
-            font-size: 1.6rem;
-            margin-top: 0;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 2px solid #F0F4F8;
-            padding-bottom: 12px;
-        }
-        section h2 .material-icons {
-            background: rgba(0, 119, 182, 0.08);
-            padding: 8px;
-            border-radius: 12px;
-            color: var(--ocean-blue);
-        }
+html {
+  scroll-behavior:smooth;
+}
 
-        .section-desc { color: var(--text-light); font-size: 1.05rem; margin-bottom: 20px; }
-        
-        /* شبكة المميزات الداخلية */
-        .feat-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        .feat-item {
-            background: #F8FAFC;
-            padding: 15px;
-            border-radius: 14px;
-            border: 1px solid #E2E8F0;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-        }
-        .feat-item .material-icons { color: var(--turquoise); margin-top: 3px; }
-        .feat-item strong { color: var(--text-dark); display: block; margin-bottom: 4px; }
-        .feat-item p { margin: 0; font-size: 0.9rem; color: var(--text-light); }
+body {
+  font-family:'Cairo',sans-serif;
+  background:#f6fbfd;
+  color:var(--text);
+  line-height:1.9;
+}
 
-        /* صندوق الاتصال المباشر */
-        .direct-box {
-            background: #FFF9E6;
-            border: 1px dashed var(--sun-gold);
-            padding: 15px;
-            border-radius: 14px;
-            text-align: center;
-            font-weight: 700;
-            color: #B77A00;
-            margin-top: 15px;
-        }
+a {
+  text-decoration:none;
+  color:inherit;
+}
 
-        /* كروت الخصوصية والتواصل */
-        .info-block {
-            display: flex; gap: 15px; background: #F8FAFC; padding: 15px;
-            border-radius: 12px; border: 1px solid #E2E8F0; margin-bottom: 15px;
-        }
-        .contact-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;
-        }
-        .contact-card {
-            display: flex; align-items: center; gap: 12px; padding: 15px;
-            background: #FAFAFA; border-radius: 12px; border: 1px solid #EAEAEA;
-        }
-        .contact-card a { color: var(--ocean-blue); text-decoration: none; font-weight: 700; }
+.container {
+  width:90%;
+  max-width:1150px;
+  margin:auto;
+}
 
-        footer { text-align: center; padding: 40px 20px; color: var(--text-light); font-weight: 600; }
+header {
+  background:rgba(255,255,255,.97);
+  position:sticky;
+  top:0;
+  z-index:100;
+  box-shadow:0 3px 18px rgba(0,0,0,.07);
+}
 
-        /* متوافق مع الشاشات الصغيرة */
-        @media (max-width: 600px) {
-            header h1 { font-size: 2rem; }
-            section { padding: 20px; }
-            .btn-dl { width: 100%; }
-        }
-    </style>
+.nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:13px 0;
+  gap:15px;
+}
+
+.logo {
+  font-size:23px;
+  font-weight:900;
+  color:var(--blue);
+}
+
+.logo span {
+  color:#e3a94b;
+}
+
+.nav-links {
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  font-size:13px;
+  font-weight:700;
+}
+
+.nav-links a:hover {
+  color:var(--cyan);
+}
+
+.hero {
+  position:relative;
+  overflow:hidden;
+  padding:100px 20px 95px;
+  text-align:center;
+  color:white;
+  background:linear-gradient(135deg,#003d5b,#008ca3 60%,#39c6c5);
+}
+
+.hero:before {
+  content:"";
+  position:absolute;
+  width:450px;
+  height:450px;
+  border:2px solid rgba(255,255,255,.13);
+  border-radius:50%;
+  top:-240px;
+  right:-100px;
+}
+
+.hero:after {
+  content:"";
+  position:absolute;
+  width:350px;
+  height:350px;
+  border:2px solid rgba(255,255,255,.13);
+  border-radius:50%;
+  bottom:-230px;
+  left:-80px;
+}
+
+.hero-content {
+  position:relative;
+  z-index:2;
+}
+
+.hero-icon {
+  font-size:65px;
+  margin-bottom:10px;
+}
+
+.hero h1 {
+  font-size:45px;
+  font-weight:900;
+  margin-bottom:12px;
+}
+
+.hero h2 {
+  font-size:23px;
+  color:#d5faff;
+  margin-bottom:20px;
+}
+
+.hero p {
+  max-width:750px;
+  margin:auto;
+  font-size:17px;
+}
+
+.badge {
+  display:inline-block;
+  margin-top:22px;
+  padding:7px 20px;
+  background:rgba(255,255,255,.15);
+  border:1px solid rgba(255,255,255,.3);
+  border-radius:30px;
+}
+
+.buttons {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:13px;
+  margin-top:30px;
+}
+
+.btn {
+  padding:12px 27px;
+  border-radius:35px;
+  font-weight:800;
+  display:inline-block;
+  transition:.3s;
+}
+
+.btn:hover {
+  transform:translateY(-4px);
+}
+
+.btn-primary {
+  background:white;
+  color:var(--deep);
+}
+
+.btn-outline {
+  border:2px solid white;
+  color:white;
+}
+
+section {
+  padding:75px 0;
+}
+
+.section-title {
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.section-title h2 {
+  font-size:30px;
+  color:var(--deep);
+  font-weight:900;
+}
+
+.section-title p {
+  color:#718994;
+  margin-top:8px;
+}
+
+.intro {
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  font-size:17px;
+}
+
+.intro strong {
+  color:var(--blue);
+}
+
+.features {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:22px;
+}
+
+.card {
+  background:white;
+  border-radius:20px;
+  padding:28px 22px;
+  text-align:center;
+  box-shadow:0 7px 25px rgba(0,70,90,.06);
+  border:1px solid #e9f3f6;
+  transition:.3s;
+}
+
+.card:hover {
+  transform:translateY(-7px);
+  box-shadow:0 12px 30px rgba(0,100,120,.12);
+}
+
+.card-icon {
+  font-size:43px;
+  margin-bottom:12px;
+}
+
+.card h3 {
+  color:var(--blue);
+  font-size:19px;
+  margin-bottom:10px;
+}
+
+.card p {
+  color:#627986;
+  font-size:14px;
+}
+
+.sand-bg {
+  background:linear-gradient(120deg,#fff9ed,#f4ebd9);
+}
+
+.blue-bg {
+  background:linear-gradient(135deg,#e8faff,#f3fcff);
+}
+
+.service-details {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.detail {
+  background:white;
+  padding:28px;
+  border-radius:18px;
+  border-right:5px solid var(--cyan);
+  box-shadow:0 5px 20px rgba(0,70,90,.05);
+}
+
+.detail h3 {
+  color:var(--deep);
+  font-size:21px;
+  margin-bottom:12px;
+}
+
+.detail p {
+  color:#637d89;
+  font-size:15px;
+}
+
+.detail ul {
+  padding-right:20px;
+  margin-top:10px;
+  color:#536e7b;
+  font-size:14px;
+}
+
+.detail li {
+  margin-bottom:5px;
+}
+
+.version {
+  background:linear-gradient(135deg,#004d66,#008da4);
+  color:white;
+  border-radius:25px;
+  padding:45px 30px;
+  text-align:center;
+}
+
+.version h2 {
+  font-size:30px;
+  margin-bottom:15px;
+}
+
+.version-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:18px;
+  margin-top:30px;
+}
+
+.version-item {
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.17);
+  padding:22px;
+  border-radius:16px;
+}
+
+.version-item h3 {
+  margin:8px 0;
+}
+
+.version-item p {
+  font-size:13px;
+  color:#d7f5f8;
+}
+
+.direct {
+  text-align:center;
+  background:white;
+  border-radius:25px;
+  padding:40px 25px;
+  box-shadow:0 8px 30px rgba(0,60,80,.06);
+}
+
+.direct h2 {
+  color:var(--deep);
+  margin-bottom:15px;
+  font-size:28px;
+}
+
+.direct p {
+  max-width:850px;
+  margin:auto;
+  color:#627986;
+}
+
+.faq {
+  max-width:850px;
+  margin:auto;
+}
+
+.faq-item {
+  background:white;
+  padding:22px;
+  border-radius:15px;
+  margin-bottom:13px;
+  box-shadow:0 3px 15px rgba(0,60,80,.04);
+}
+
+.faq-item h3 {
+  color:var(--blue);
+  font-size:17px;
+  margin-bottom:7px;
+}
+
+.faq-item p {
+  color:#617986;
+  font-size:14px;
+}
+
+.social {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:15px;
+  margin-top:25px;
+}
+
+.social a {
+  padding:12px 24px;
+  border-radius:30px;
+  background:white;
+  color:var(--deep);
+  font-weight:800;
+  box-shadow:0 4px 15px rgba(0,60,80,.08);
+  transition:.3s;
+}
+
+.social a:hover {
+  background:var(--blue);
+  color:white;
+  transform:translateY(-4px);
+}
+
+.download {
+  text-align:center;
+  color:white;
+  background:linear-gradient(130deg,#003d5b,#008da4,#21b8c5);
+}
+
+.download h2 {
+  font-size:32px;
+  margin-bottom:12px;
+}
+
+.download p {
+  max-width:750px;
+  margin:auto;
+}
+
+footer {
+  background:#073849;
+  color:#d2e8ed;
+  padding:35px 15px;
+  text-align:center;
+}
+
+footer strong {
+  color:white;
+}
+
+footer p {
+  font-size:13px;
+  margin-top:8px;
+}
+
+footer a {
+  color:#70e3e4;
+}
+
+@media(max-width:750px) {
+  .nav {
+    flex-direction:column;
+  }
+
+  .nav-links {
+    justify-content:center;
+    gap:10px;
+  }
+
+  .hero {
+    padding:75px 15px;
+  }
+
+  .hero h1 {
+    font-size:34px;
+  }
+
+  .hero h2 {
+    font-size:19px;
+  }
+
+  .hero p {
+    font-size:15px;
+  }
+
+  section {
+    padding:55px 0;
+  }
+
+  .section-title h2 {
+    font-size:25px;
+  }
+}
+</style>
 </head>
+
 <body>
 
-    <header>
-        <div class="container">
-            <div class="logo-area">
-                <span class="material-icons">beach_access</span>
-            </div>
-            <h1>مطروح الروح</h1>
-            <div class="tagline">دليلك السياحي والخدمي الشامل في مرسى مطروح | Direct Booking</div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl pulse">
-                <span class="material-icons">android</span> حمل التطبيق مجاناً الآن
-            </a>
-        </div>
-    </header>
+<header>
+<div class="container nav">
+<a class="logo" href="#">🌊 مطروح <span>الروح</span></a>
 
-    <div class="nav-scroller">
-        <div class="nav-links">
-            <a href="#lodging"><span class="material-icons">hotel</span> السكن والفنادق</a>
-            <a href="#offers"><span class="material-icons">local_offer</span> العروض والخصومات</a>
-            <a href="#beaches"><span class="material-icons">waves</span> الشواطئ</a>
-            <a href="#outings"><span class="material-icons">attractions</span> أماكن الخروج</a>
-            <a href="#transport"><span class="material-icons">directions_bus</span> المواصلات والرحلات</a>
-            <a href="#activities"><span class="material-icons">directions_boat</span> الأنشطة والترفيه</a>
-            <a href="#services"><span class="material-icons">build</span> الخدمات والأكل البيتي</a>
-            <a href="#shops"><span class="material-icons">shopping_bag</span> المحلات والبقالة</a>
-            <a href="#about"><span class="material-icons">info</span> عن التطبيق</a>
-            <a href="#privacy"><span class="material-icons">security</span> الخصوصية والشروط</a>
-        </div>
-    </div>
+<nav class="nav-links">
+<a href="#about">عن التطبيق</a>
+<a href="#services">الخدمات</a>
+<a href="#features">المميزات</a>
+<a href="#version">التحديث الجديد</a>
+<a href="#contact">تواصل معنا</a>
+</nav>
+</div>
+</header>
 
-    <div class="container">
+<main>
 
-        <section id="lodging">
-            <h2><span class="material-icons">apartment</span> شقق، فنادق، وشاليهات مرسى مطروح</h2>
-            <p class="section-desc">ابحث عن أفضل خيارات السكن المصيفي في مرسى مطروح. شقق تطل على البحر مباشرة، شاليهات فاخرة في قرى مطروح، وفنادق تناسب جميع الميزانيات.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">download</span> احجز سكنك من التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">check_circle</span>
-                    <div><strong>شقق مصيفية على البحر:</strong> متاح شقق للإيجار في الكورنيش، الفيروز، وباب البحر بأسعار متفاوتة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">check_circle</span>
-                    <div><strong>شاليهات خاصة:</strong> شاليهات للإيجار في شاطئ الأبيض، عجيبة، والقرى السياحية.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">check_circle</span>
-                    <div><strong>فنادق مطروح:</strong> استعراض الفنادق القريبة من الأسواق والشواطئ مع تفاصيل الحجز.</div>
-                </div>
-            </div>
-            <div class="direct-box">💡 ميزة مطروح الروح: تواصل هاتفي مباشر مع المالك أو الفندق بدون عمولات أو سماسرة!</div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">phone_android</span> افتح دليلك السكني في التطبيق</a>
-        </section>
+<section class="hero">
+<div class="hero-content container">
 
+<div class="hero-icon">🌊</div>
 
-        <section id="offers" style="border-right-color: #ff9f1c;">
-            <h2><span class="material-icons">local_offer</span> العروض المميزة والخصومات الحصرية</h2>
-            <p class="section-desc">وفر فلوسك وتابع أقوى عروض الصيف والخصومات المحدثة بانتظام في مطروح على الإقامة، المطاعم، والرحلات.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">auto_awesome</span> شاهد عروض اليوم في التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">star</span>
-                    <div><strong>خصومات السكن:</strong> عروض حصرية على فترات حجز الشقق والشاليهات خارج أوقات الذروة وفي الموسم.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">star</span>
-                    <div><strong>تخفيضات المطاعم والمحلات:</strong> كوبونات وخصومات خاصة لمستخدمي تطبيق مطروح الروح.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">bolt</span> حمل التطبيق واقتنص العرض</a>
-        </section>
+<h1>مطروح الروح</h1>
 
+<h2>رحلة جوه الرحلة</h2>
 
-        <section id="beaches">
-            <h2><span class="material-icons">waves</span> دليل شواطئ مرسى مطروح</h2>
-            <p class="section-desc">تضم مرسى مطروح مجموعة من أجمل شواطئ العالم بمياه فيروزية ساحرة ورمال بيضاء ناعمة. تعرف على كل شاطئ وتفاصيله.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">explore</span> تصفح الشواطئ والخدمات داخل التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">location_on</span>
-                    <div><strong>شواطئ عامة وقريبة:</strong> شاطئ روميل، شاطئ الفيروز، شاطئ الليدو، وشاطئ مطروح العام.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">location_on</span>
-                    <div><strong>شواطئ طبيعية ساحرة:</strong> شاطئ الغرام (صخرة ليلى مراد)، شاطئ عجيبة، وشاطئ الأبيض المفتوح.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">location_on</span>
-                    <div><strong>الخدمات على الشاطئ:</strong> أسعار الشماسي، توفر الكافيتريات، ومستوى أمان السباحة لكل شاطئ.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">navigation</span> حدد شاطئك المفضل وافتح التطبيق</a>
-        </section>
+<p>
+اكتشف مرسى مطروح بطريقة مختلفة.
+دليلك السياحي والخدمي الذي يجمع الإقامة والشواطئ والمطاعم والرحلات والمواصلات والخدمات اليومية في مكان واحد.
+</p>
 
+<div class="badge">الإصدار الجديد 1.1.2</div>
 
-        <section id="outings">
-            <h2><span class="material-icons">attractions</span> دليل أماكن الخروج والفسح والمزارات</h2>
-            <p class="section-desc">جدول خروجك بعد البحر! دليلك الشامل لأفضل مناطق التنزه، الملاهي، الكورنيش، والأسواق الشهيرة ليلاً في مطروح.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">celebration</span> خطط لفسحتك اليوم عبر التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">place</span>
-                    <div><strong>الأسواق والكورنيش:</strong> جولات سوق ليبيا، شارع الإسكندرية، والمشي الساحر على كورنيش مطروح.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">place</span>
-                    <div><strong>أماكن عائلية وملاهي:</strong> مناطق ألعاب الأطفال، السيرك, المسارح، والحدائق العامة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">place</span>
-                    <div><strong>مطاعم وكافيهات:</strong> دليل أشهر مطاعم المشويات، المأكولات البحرية، وكافيهات الكورنيش.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">map</span> تصفح خريطة الفسح في التطبيق</a>
-        </section>
+<div class="buttons">
+<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh">
+📱 حمل التطبيق الآن
+</a>
 
+<a class="btn btn-outline" href="#services">
+اكتشف خدماتنا
+</a>
+</div>
 
-        <section id="transport">
-            <h2><span class="material-icons">directions_bus</span> المواصلات، السيارات، ورحلات الشواطئ</h2>
-            <p class="section-desc">لا تقلق بشأن التنقل. يوفر لك هذا القسم تفاصيل كاملة حول مواصلات مطروح الداخلية، أرقام سائقين، رحلات الذهاب والعودة للشواطئ البعيدة.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">local_taxi</span> اطلب وسيلة انتقالك من التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">commute</span>
-                    <div><strong>تاكسي وسيارات خاصة:</strong> أرقام تواصل مع سائقي تاكسي ثقة لتوصيلك لأي مكان في المدينة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">commute</span>
-                    <div><strong>رحلات الشواطئ البعيدة:</strong> مواعيد وسيارات مخصصة للذهاب والعودة من شواطئ الأبيض وعجيبة والغرام.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">commute</span>
-                    <div><strong>إيجار سيارات وميكروباص:</strong> خيارات نقل جماعي للعائلات الكبيرة لرحلات اليوم الواحد.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">minor_crash</span> ابحث عن سائق في تطبيق مطروح الروح</a>
-        </section>
+</div>
+</section>
 
+<section id="about">
+<div class="container">
 
-        <section id="activities">
-            <h2><span class="material-icons">directions_boat</span> الأنشطة والترفيه (رحلات يخوت وسفاري)</h2>
-            <p class="section-desc">عش مغامرة لا تُنسى في مطروح! احجز رحلة يخت بحري في عمق المياه الفيروزية، أو انطلق في رحلة سفاري مثيرة في الصحراء.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">sailing</span> احجز مغامرتك القادمة من التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">phishing</span>
-                    <div><strong>رحلات اليخوت البحرية:</strong> جولات بحرية مميزة، السباحة في المياه العميقة، والصيد وسط مناظر خلابة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">landscape</span>
-                    <div><strong>سفاري مطروح:</strong> مغامرات ركوب البيتش باجي في الصحراء والوديان، وقضاء سهرات بدوية أصيلة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">kayaking</span>
-                    <div><strong>ألعاب مائية (العاب بحر):</strong> حجز البانانا بوت، الجيت سكي، والأنشطة الترفيهية على الشواطئ.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">festival</span> تواصل مع منظمي الرحلات داخل التطبيق</a>
-        </section>
+<div class="section-title">
+<h2>مرحبًا بك في مطروح الروح</h2>
+<p>كل ما تحتاجه لاكتشاف المدينة في تطبيق واحد</p>
+</div>
 
+<div class="intro">
+<p>
+مرسى مطروح مدينة الجمال والبحر الفيروزي والشواطئ الساحرة،
+ومن هنا جاءت فكرة <strong>مطروح الروح</strong> لتكون دليلك الرقمي
+لاكتشاف المدينة والوصول إلى خدماتها وأماكنها بسهولة.
+</p>
 
-        <section id="services">
-            <h2><span class="material-icons">build</span> الخدمات العامة، الفنيين، والأكل البيتي</h2>
-            <p class="section-desc">كل ما يحتاجه المقيم والمصطاف من خدمات لوجستية وطوارئ. فنيين صيانة، مكاتب دليفري وتوصيل سريع، ومطابخ أكل بيتي بأيدي أهل مطروح.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">delivery_dining</span> اطلب الخدمة مباشرة عبر التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">soup_kitchen</span>
-                    <div><strong>مطابخ الأكل البيتي:</strong> أشهى المأكولات البدوية والمصرية البيئية المجهزة طازجة للعائلات والمصطافين.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">engineering</span>
-                    <div><strong>فنيين وصيانة:</strong> أرقام سباكين، كهربائيين، فنيي تكييف، وصيانة سيارات عند حدوث أي عطل مفاجئ.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">local_shipping</span>
-                    <div><strong>مكاتب توصيل ودليفري:</strong> خدمات شحن داخلي وتوصيل طلبات من الأسواق والمطاعم إلى باب سكنك.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">handyman</span> تصفح أرقام الفنيين والخدمات في التطبيق</a>
-        </section>
+<br>
 
+<p>
+يجمع التطبيق مجموعة متنوعة من الخدمات السياحية والتجارية والطبية
+والترفيهية، ويساعدك على التعرف على الأماكن ومشاهدة الصور والفيديوهات
+المتاحة ومعرفة المواقع والتواصل المباشر مع مقدمي الخدمات.
+</p>
 
-        <section id="shops">
-            <h2><span class="material-icons">shopping_bag</span> دليل المحلات، السوبرماركت، والبقالة</h2>
-            <p class="section-desc">تسوق بذكاء وتعرف على أقرب محلات البقالة، السوبرماركت، محلات بيع المنتجات المطروحية الشهيرة (كالنعناع، الزيتون، والأعشاب).</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">storefront</span> تصفح دليل المحلات في التطبيق</a>
-            
-            <div class="feat-grid">
-                <div class="feat-item">
-                    <span class="material-icons">shopping_cart</span>
-                    <div><strong>بقالة وسوبرماركت:</strong> أماكن توفير السلع الغذائية والمستلزمات اليومية بأسعار معلنة ونظيفة.</div>
-                </div>
-                <div class="feat-item">
-                    <span class="material-icons">bakery_dining</span>
-                    <div><strong>منتجات واحة مطروح:</strong> محلات موثوقة لبيع زيت الزيتون الأصلي، التمور، النعناع البدوي، والأعشاب.</div>
-                </div>
-            </div>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">add_shopping_cart</span> حمل التطبيق واعرف أقرب محل ليك</a>
-        </section>
+<br>
 
+<p>
+سواء كنت زائرًا تبحث عن إقامة مناسبة، أو مصطافًا يريد اكتشاف شاطئ جديد،
+أو مقيمًا يحتاج إلى خدمة يومية، فإن مطروح الروح يجعل الوصول للمعلومة أسهل.
+</p>
+</div>
 
-        <section id="about">
-            <h2><span class="material-icons">info</span> عن تطبيق مطروح الروح</h2>
-            <p class="section-desc">تطبيق <strong>مطروح الروح</strong> هو دليل خدمات رقمي شامل ومنصة إعلانات تهدف إلى تسهيل وصول الزوار والمصطافين إلى أفضل الخدمات في مدينة مرسى مطروح.</p>
-            <p class="section-desc">يوفر التطبيق معلومات دقيقة عن الشقق، الفنادق، الشاليهات، المطاعم، المواصلات، والشواطئ، مع إمكانية التواصل المباشر (Direct Booking) مع مقدمي الخدمات لضمان أفضل تجربة سياحية بدون وسيط.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">install_mobile</span> ابدأ استخدام التطبيق الآن</a>
-        </section>
+</div>
+</section>
 
+<section class="sand-bg" id="services">
+<div class="container">
 
-        <section id="privacy" style="border-right-color: #4CAF50;">
-            <h2><span class="material-icons">security</span> سياسة الخصوصية وشروط الاستخدام</h2>
-            
-            <div class="info-block">
-                <span class="material-icons" style="color: var(--turquoise);">data_usage</span>
-                <div>
-                    <strong>جمع البيانات:</strong>
-                    <p style="margin:5px 0 0; color: var(--text-light);">البيانات المسجلة في التطبيق هي بيانات مقدمي الخدمات فقط (المالكين وأصحاب الخدمات). لا يتم جمع أو تخزين أي بيانات خاصة بالمستخدمين الذين يتصفحون التطبيق.</p>
-                </div>
-            </div>
-            
-            <div class="info-block">
-                <span class="material-icons" style="color: var(--sun-gold);">delete_sweep</span>
-                <div>
-                    <strong>حقوق مقدمي الخدمات (حذف البيانات):</strong>
-                    <p style="margin:5px 0 0; color: var(--text-light);">يحق لمقدم الخدمة طلب حذف بياناته في أي وقت، كما يحق لإدارة التطبيق حذف أي بيانات في حال عدم الالتزام بالشفافية والصدق.</p>
-                </div>
-            </div>
-            
-            <div class="info-block">
-                <span class="material-icons" style="color: var(--ocean-blue);">gavel</span>
-                <div>
-                    <strong>المسؤولية وشروط الاستخدام:</strong>
-                    <ul style="margin:5px 0 0; padding-right:20px; color: var(--text-light);">
-                        <li>التطبيق هو دليل خدمات رقمي ومنصة عرض إعلانات فقط.</li>
-                        <li>كل تواصل يتم عبر التطبيق هو تواصل مباشر بين المستخدم ومقدم الخدمة.</li>
-                        <li>التطبيق غير مسؤول عن أي اتفاقات مالية أو خلافات تنشأ بين الطرفين.</li>
-                        <li>يجب على المستخدمين ومقدمي الخدمات الالتزام بالصدق والشفافية.</li>
-                        <li>لإدارة التطبيق الحق في تعديل الشروط مستقبلاً وسيتم إبلاغ المستخدمين بذلك.</li>
-                    </ul>
-                </div>
-            </div>
+<div class="section-title">
+<h2>اكتشف أقسام وخدمات التطبيق</h2>
+<p>دليل متنوع يغطي احتياجات الزوار والمقيمين في مرسى مطروح</p>
+</div>
 
-            <h3 style="color: var(--ocean-blue); margin-top: 30px;"><span class="material-icons" style="vertical-align: middle;">contact_support</span> معلومات التواصل والدعم</h3>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <span class="material-icons" style="color:#4CAF50;">phone_iphone</span>
-                    <div>
-                        <span style="font-size:0.8rem; color:var(--text-light);">الهاتف المباشر</span><br>
-                        <a href="tel:01062186746" dir="ltr">010 6218 6746</a>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <span class="material-icons" style="color:var(--ocean-blue);">email</span>
-                    <div>
-                        <span style="font-size:0.8rem; color:var(--text-light);">البريد الإلكتروني</span><br>
-                        <a href="mailto:abomalak666666666666@gmail.com" style="font-size:0.85rem;">abomalak666666666666@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-            
-            <center style="margin-top:25px;">
-                <a href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" class="btn-dl"><span class="material-icons">verified_user</span> تحميل آمن ومعتمد من جوجل بلاي</a>
-            </center>
-        </section>
+<div class="features">
 
-    </div>
+<div class="card">
+<div class="card-icon">🏨</div>
+<h3>الإقامة والشقق المصيفية</h3>
+<p>اكتشف الشقق والشاليهات والفنادق، وشاهد الصور والتفاصيل وتواصل مباشرة مع أصحاب الوحدات، وتعرف على السعر حسب موعد رحلتك للوحدات المتاحة.</p>
+</div>
 
-    <footer>
-        <div class="container">
-            <p>جميع الحقوق محفوظة &copy; 2026 - منصة وتطبيق مطروح الروح الرقمي</p>
-        </div>
-    </footer>
+<div class="card">
+<div class="card-icon">🍽️</div>
+<h3>المطاعم والمقاهي</h3>
+<p>دليل للمطاعم والكافيهات ومطاعم الأسماك والوجبات السريعة، مع بيانات التواصل والمواقع المتاحة.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🏖️</div>
+<h3>الشواطئ والطقس والبحر</h3>
+<p>اكتشف شواطئ مطروح وتابع المعلومات المتاحة عن حالة الطقس والبحر لمساعدتك في التخطيط ليومك.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🚤</div>
+<h3>الأنشطة والترفيه</h3>
+<p>اكتشف اليخوت والسفاري والسيرك والأكوا بارك والرحلات البحرية والألعاب المائية والأنشطة الترفيهية.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🚕</div>
+<h3>السيارات والمواصلات</h3>
+<p>تعرف على خدمات التاكسي والسيارات الخاصة والفان 7 راكب والميكروباص والرحلات الداخلية ورحلات الشواطئ.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🏥</div>
+<h3>الخدمات الطبية</h3>
+<p>دليل للعيادات والصيدليات ومعامل التحاليل ومراكز الأشعة، مع ميزة الأقرب إليك للتعرف على الخدمات المحيطة.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🔧</div>
+<h3>الخدمات المنزلية</h3>
+<p>تعرف على الفنيين ومقدمي خدمات الكهرباء والسباكة والصيانة والخدمات المنزلية المتنوعة.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🛒</div>
+<h3>المحلات والورش والبقالة</h3>
+<p>اكتشف الأنشطة التجارية والمحلات والبقالات والسوبر ماركت وورش الصيانة والخدمات اليومية.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="blue-bg">
+<div class="container">
+
+<div class="section-title">
+<h2>تفاصيل أكثر.. تجربة أسهل</h2>
+<p>أدوات تساعدك على استكشاف الخدمات والأماكن</p>
+</div>
+
+<div class="service-details">
+
+<div class="detail">
+<h3>📍 الأقرب إليك</h3>
+<p>تعرف على الخدمات والأماكن القريبة من موقعك الجغرافي، وسهّل الوصول إلى مقدمي الخدمات من خلال المواقع المتاحة.</p>
+</div>
+
+<div class="detail">
+<h3>🎥 الصور والفيديوهات</h3>
+<p>شاهد الصور والفيديوهات المتاحة لبعض الوحدات والخدمات، وتعرف على تفاصيل المكان بصورة أوضح قبل التواصل.</p>
+</div>
+
+<div class="detail">
+<h3>📅 أسعار حسب موعد الرحلة</h3>
+<p>أدخل تاريخ رحلتك للتعرف على السعر المرتبط بموعد الإقامة للوحدات التي توفر هذه الميزة.</p>
+</div>
+
+<div class="detail">
+<h3>🗺️ الخرائط والمواقع</h3>
+<p>تعرف على الموقع الجغرافي للأماكن والخدمات، وسهّل الوصول إليها باستخدام الخرائط.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="version">
+<div class="container">
+
+<div class="version">
+
+<h2>🚀 الإصدار 1.1.2</h2>
+
+<p>نواصل تطوير مطروح الروح لإضافة تجربة أفضل وخدمات أكثر فائدة لزوار ومقيمي مرسى مطروح.</p>
+
+<div class="version-grid">
+
+<div class="version-item">
+<div style="font-size:35px">📍</div>
+<h3>الأقرب إليك</h3>
+<p>الوصول إلى الخدمات القريبة من موقعك.</p>
+</div>
+
+<div class="version-item">
+<div style="font-size:35px">🎥</div>
+<h3>عرض الفيديو</h3>
+<p>مشاهدة فيديوهات الوحدات والخدمات المتاحة.</p>
+</div>
+
+<div class="version-item">
+<div style="font-size:35px">📅</div>
+<h3>معرفة السعر</h3>
+<p>الاستعلام عن سعر الإقامة حسب تاريخ الرحلة.</p>
+</div>
+
+<div class="version-item">
+<div style="font-size:35px">🗺️</div>
+<h3>تطوير تجربة الاستخدام</h3>
+<p>الوصول إلى المعلومات والمواقع بسهولة.</p>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="direct">
+<h2>🤝 تواصل مباشر.. بدون وسطاء</h2>
+
+<p>
+مطروح الروح دليل سياحي وخدمي يهدف إلى تسهيل الوصول للمعلومات
+وربط المستخدم بمقدم الخدمة مباشرة.
+لا نقوم بتنفيذ الحجوزات أو تحصيل مدفوعاتها نيابة عن أصحاب الخدمات،
+ولا نفرض عمولات حجز على المستخدمين.
+يتم الاستفسار والاتفاق والتعامل مباشرة بين المستخدم ومقدم الخدمة.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<section class="sand-bg">
+<div class="container">
+
+<div class="section-title">
+<h2>لماذا تستخدم مطروح الروح؟</h2>
+<p>كل ما تحتاج إليه لاكتشاف المدينة بسهولة</p>
+</div>
+
+<div class="features">
+
+<div class="card">
+<div class="card-icon">📱</div>
+<h3>خدمات متعددة</h3>
+<p>استكشف أقسامًا متنوعة للسياحة والخدمات اليومية من تطبيق واحد.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🔎</div>
+<h3>سهولة الوصول</h3>
+<p>تعرف على الأماكن والخدمات وابحث عن المعلومات التي تحتاج إليها.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">🤝</div>
+<h3>تواصل مباشر</h3>
+<p>تواصل مع مقدمي الخدمات دون الحاجة إلى وسيط للحجز.</p>
+</div>
+
+<div class="card">
+<div class="card-icon">💙</div>
+<h3>للزائر والمقيم</h3>
+<p>دليل يساعد المصطافين والسائحين وأهالي مرسى مطروح.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="faq">
+<div class="container">
+
+<div class="section-title">
+<h2>الأسئلة الشائعة</h2>
+<p>إجابات عن أهم الأسئلة حول تطبيق مطروح الروح</p>
+</div>
+
+<div class="faq">
+
+<div class="faq-item">
+<h3>ما هو تطبيق مطروح الروح؟</h3>
+<p>تطبيق سياحي وخدمي يجمع مجموعة متنوعة من الأماكن والخدمات في مرسى مطروح، ويساعد المستخدمين على الوصول للمعلومات والتواصل مع مقدمي الخدمات.</p>
+</div>
+
+<div class="faq-item">
+<h3>هل التطبيق مخصص للمصطافين فقط؟</h3>
+<p>لا، التطبيق مناسب للزوار والمصطافين والمقيمين، ويضم خدمات سياحية وطبية وتجارية ومنزلية متنوعة.</p>
+</div>
+
+<div class="faq-item">
+<h3>هل يمكن معرفة أسعار الشقق حسب موعد الرحلة؟</h3>
+<p>نعم، تتوفر إمكانية الاستعلام عن الأسعار حسب تاريخ الرحلة للوحدات التي تدعم هذه الخاصية.</p>
+</div>
+
+<div class="faq-item">
+<h3>هل يمكن مشاهدة فيديوهات للوحدات؟</h3>
+<p>نعم، يوفر التطبيق إمكانية مشاهدة الفيديوهات المضافة لبعض الوحدات والخدمات.</p>
+</div>
+
+<div class="faq-item">
+<h3>كيف أجد أقرب خدمة لموقعي؟</h3>
+<p>يمكنك استخدام خاصية الأقرب إليك، مع السماح بالوصول إلى الموقع الجغرافي عند الحاجة.</p>
+</div>
+
+<div class="faq-item">
+<h3>هل التطبيق وسيط للحجز؟</h3>
+<p>لا، التطبيق دليل للمعلومات والخدمات، والتواصل والاتفاق يتمان مباشرة بين المستخدم ومقدم الخدمة.</p>
+</div>
+
+<div class="faq-item">
+<h3>هل يوفر التطبيق معلومات عن الشواطئ؟</h3>
+<p>نعم، يضم قسمًا للشواطئ والطقس وحالة البحر لمساعدتك على التعرف على المعلومات المتاحة.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="download">
+<div class="container">
+
+<h2>💙 اجعل مطروح أقرب إليك</h2>
+
+<p>
+اكتشف الأماكن والخدمات، وخطط لرحلتك، واستمتع بتجربة أكثر سهولة
+مع تطبيق مطروح الروح.
+</p>
+
+<div class="buttons">
+<a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh">
+تحميل التطبيق من Google Play
+</a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="section-title">
+<h2>تابع مطروح الروح</h2>
+<p>كن قريبًا من أحدث الأماكن والخدمات والأنشطة في مرسى مطروح</p>
+</div>
+
+<div class="social">
+
+<a href="https://www.facebook.com/profile.php?id=61586297591303" target="_blank" rel="noopener">📘 Facebook</a>
+
+<a href="https://www.instagram.com/matrouh.rouh?bqrl=NjY5azZnZnk0dDJv" target="_blank" rel="noopener">📸 Instagram</a>
+
+<a href="https://youtube.com/@matruhrouh?si=3Re3gWgn1ScEIOhG" target="_blank" rel="noopener">▶️ YouTube</a>
+
+</div>
+</div>
+</section>
+
+<section class="blue-bg">
+<div class="container">
+
+<div class="section-title">
+<h2>🔐 الخصوصية وحماية البيانات</h2>
+<p>ثقتك وخصوصيتك من أولوياتنا</p>
+</div>
+
+<div class="intro">
+<p>
+نحرص على توضيح كيفية استخدام الأذونات والبيانات المرتبطة بتشغيل التطبيق.
+يمكنك الاطلاع على سياسة الخصوصية والتعرف على التفاصيل من خلال الرابط الرسمي.
+</p>
+
+<div class="buttons">
+<a class="btn btn-primary" href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">
+زيارة الموقع الرسمي
+</a>
+</div>
+
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+
+<div style="font-size:30px">🌊</div>
+
+<strong>مطروح الروح – رحلة جوه الرحلة</strong>
+
+<p>دليلك السياحي والخدمي لاكتشاف مرسى مطروح.</p>
+
+<p>الإصدار 1.1.2</p>
+
+<p>جميع الحقوق محفوظة © مطروح الروح</p>
+
+<p>
+<a href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">الموقع الرسمي</a>
+</p>
+
+</div>
+</footer>
 
 </body>
 </html>
+```
