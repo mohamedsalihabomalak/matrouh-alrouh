@@ -2,1537 +2,301 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>مطروح الروح | دليلك السياحي والخدمي في مرسى مطروح</title>
-
-<meta name="description" content="اكتشف مرسى مطروح مع تطبيق مطروح الروح. دليلك للشواطئ والفنادق والشاليهات والمطاعم والمواصلات والأنشطة الترفيهية والخدمات الطبية والمنزلية. رحلة جوه الرحلة.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>مطروح الروح | دليل مرسى مطروح: شواطئ وشاليهات وفنادق ومطاعم ومواصلات</title>
+<meta name="description" content="مطروح الروح تطبيق دليل لمرسى مطروح: شاطئ الغرام وروميل وكليوباترا وعجيبة، شاليهات وفنادق ومطاعم ومواصلات وخدمات طبية والأقرب إليك. حمّله من Google Play.">
+<meta name="keywords" content="مطروح الروح, مرسى مطروح, دليل مرسى مطروح, تطبيق مطروح, شاطئ الغرام, شاطئ روميل, شاطئ كليوباترا, شاطئ عجيبة, شاليهات مطروح, فنادق مرسى مطروح, مطاعم مطروح, مصيف مطروح, السياحة في مطروح, رحلات بحرية مطروح, مواصلات مطروح">
 <meta name="author" content="محمد جلال صالح - M-G-S">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#087e8b">
-
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0a3d49">
 <link rel="canonical" href="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">
-
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌊%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:title" content="مطروح الروح | رحلة جوه الرحلة">
-<meta property="og:description" content="اكتشف مرسى مطروح واستمتع بدليل سياحي وخدمي يجمع لك الأماكن والخدمات والأنشطة في مكان واحد.">
+<meta property="og:description" content="شواطئ وشاليهات ومطاعم ومواصلات وخدمات مرسى مطروح في تطبيق واحد.">
 <meta property="og:url" content="https://mohamedsalihabomalak.github.io/matrouh-alrouh/">
+<meta property="og:image" content="https://mohamedsalihabomalak.github.io/matrouh-alrouh/og.jpg">
 <meta property="og:locale" content="ar_EG">
 <meta property="og:site_name" content="مطروح الروح">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="مطروح الروح">
-<meta name="twitter:description" content="رحلة جوه الرحلة | دليلك لاكتشاف مرسى مطروح">
-
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Lalezar&display=swap" rel="stylesheet">
 <style>
-:root {
-  --primary: #087e8b;
-  --primary-dark: #075c69;
-  --secondary: #e5a93d;
-  --dark: #17343b;
-  --text: #52656b;
-  --light: #f4faf9;
-  --white: #ffffff;
-  --border: #e4eeee;
-  --shadow: 0 12px 35px rgba(12, 74, 82, .09);
-  --radius: 20px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 90px;
-}
-
-body {
-  font-family: 'Cairo', sans-serif;
-  background: var(--white);
-  color: var(--dark);
-  line-height: 1.9;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  font-family: inherit;
-}
-
-.container {
-  width: min(1160px, 92%);
-  margin: auto;
-}
-
-.topbar {
-  background: var(--primary-dark);
-  color: white;
-  text-align: center;
-  padding: 8px 12px;
-  font-size: 13px;
-}
-
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: rgba(255,255,255,.96);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-}
-
-.navbar {
-  min-height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-weight: 900;
-  font-size: 21px;
-  color: var(--primary-dark);
-  white-space: nowrap;
-}
-
-.brand-icon {
-  width: 46px;
-  height: 46px;
-  border-radius: 15px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, var(--primary), #23a7a9);
-  color: white;
-  font-size: 25px;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.nav-links a:hover {
-  color: var(--primary);
-}
-
-.nav-download {
-  background: var(--primary);
-  color: white !important;
-  padding: 10px 19px;
-  border-radius: 12px;
-}
-
-.hero {
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 10% 20%, rgba(255,255,255,.17), transparent 25%),
-    radial-gradient(circle at 90% 80%, rgba(255,255,255,.12), transparent 28%),
-    linear-gradient(130deg, #075c69, #078b94 58%, #22a8a5);
-  color: white;
-  padding: 100px 0 95px;
-}
-
-.hero::before,
-.hero::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(255,255,255,.13);
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.hero::before {
-  width: 430px;
-  height: 430px;
-  top: -220px;
-  left: -100px;
-}
-
-.hero::after {
-  width: 300px;
-  height: 300px;
-  bottom: -180px;
-  right: 10%;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 760px;
-}
-
-.hero-label {
-  display: inline-block;
-  padding: 7px 16px;
-  border: 1px solid rgba(255,255,255,.35);
-  background: rgba(255,255,255,.1);
-  border-radius: 30px;
-  font-size: 13px;
-  margin-bottom: 23px;
-}
-
-.hero h1 {
-  font-size: clamp(36px, 6vw, 66px);
-  line-height: 1.35;
-  font-weight: 900;
-  margin-bottom: 18px;
-}
-
-.hero h1 span {
-  color: #ffdc8b;
-}
-
-.hero p {
-  font-size: 18px;
-  color: rgba(255,255,255,.91);
-  max-width: 680px;
-  margin-bottom: 30px;
-}
-
-.hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 13px;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  padding: 13px 25px;
-  border-radius: 13px;
-  font-weight: 800;
-  transition: .25s;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-}
-
-.btn-white {
-  background: white;
-  color: var(--primary-dark);
-}
-
-.btn-outline {
-  border: 1px solid rgba(255,255,255,.55);
-  color: white;
-  background: rgba(255,255,255,.08);
-}
-
-.section {
-  padding: 85px 0;
-}
-
-.section-light {
-  background: var(--light);
-}
-
-.section-heading {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto 45px;
-}
-
-.section-heading small {
-  color: var(--primary);
-  font-weight: 900;
-  font-size: 14px;
-}
-
-.section-heading h2 {
-  font-size: clamp(26px, 4vw, 39px);
-  margin: 8px 0 12px;
-  font-weight: 900;
-}
-
-.section-heading p {
-  color: var(--text);
-  font-size: 15px;
-}
-
-.intro-grid {
-  display: grid;
-  grid-template-columns: 1.2fr .8fr;
-  gap: 35px;
-  align-items: center;
-}
-
-.intro-text h2 {
-  font-size: 31px;
-  margin-bottom: 17px;
-  font-weight: 900;
-}
-
-.intro-text p {
-  color: var(--text);
-  margin-bottom: 14px;
-}
-
-.intro-card {
-  background: linear-gradient(145deg, #087e8b, #075c69);
-  color: white;
-  padding: 35px;
-  border-radius: 25px;
-  box-shadow: var(--shadow);
-}
-
-.intro-card .big-icon {
-  font-size: 45px;
-  margin-bottom: 12px;
-}
-
-.intro-card h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.intro-card p {
-  color: rgba(255,255,255,.86);
-  font-size: 14px;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.feature-card {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 27px 23px;
-  transition: .25s;
-}
-
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow);
-  border-color: #b8dddd;
-}
-
-.feature-icon {
-  width: 58px;
-  height: 58px;
-  border-radius: 17px;
-  display: grid;
-  place-items: center;
-  background: #e8f6f5;
-  font-size: 28px;
-  margin-bottom: 16px;
-}
-
-.feature-card h3 {
-  font-size: 19px;
-  margin-bottom: 8px;
-  font-weight: 900;
-}
-
-.feature-card p {
-  color: var(--text);
-  font-size: 14px;
-}
-
-.steps-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-}
-
-.step {
-  text-align: center;
-  padding: 28px;
-  background: white;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-}
-
-.step-number {
-  width: 48px;
-  height: 48px;
-  display: grid;
-  place-items: center;
-  margin: 0 auto 15px;
-  background: var(--primary);
-  color: white;
-  border-radius: 50%;
-  font-size: 20px;
-  font-weight: 900;
-}
-
-.step h3 {
-  margin-bottom: 8px;
-  font-size: 18px;
-}
-
-.step p {
-  color: var(--text);
-  font-size: 14px;
-}
-
-.notice {
-  background: #fff9eb;
-  border: 1px solid #f3e0b4;
-  border-radius: 16px;
-  padding: 20px;
-  color: #70551c;
-  font-size: 14px;
-  margin-top: 25px;
-}
-
-.download-section {
-  background: linear-gradient(130deg, #075c69, #078b94);
-  color: white;
-  text-align: center;
-  padding: 75px 20px;
-}
-
-.download-section h2 {
-  font-size: clamp(27px, 4vw, 40px);
-  font-weight: 900;
-  margin-bottom: 12px;
-}
-
-.download-section p {
-  color: rgba(255,255,255,.88);
-  margin-bottom: 25px;
-}
-
-.download-section .btn {
-  background: white;
-  color: var(--primary-dark);
-}
-
-.social-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.social-link {
-  padding: 13px 25px;
-  border: 1px solid var(--border);
-  border-radius: 13px;
-  font-weight: 800;
-  color: var(--primary-dark);
-  background: white;
-  transition: .2s;
-}
-
-.social-link:hover {
-  background: var(--primary);
-  color: white;
-}
-
-.faq-list {
-  max-width: 850px;
-  margin: auto;
-}
-
-details {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 17px 20px;
-  margin-bottom: 13px;
-}
-
-summary {
-  cursor: pointer;
-  font-weight: 800;
-  color: var(--dark);
-}
-
-details p {
-  color: var(--text);
-  font-size: 14px;
-  margin-top: 12px;
-}
-
-.legal-section {
-  background: white;
-  border-top: 1px solid var(--border);
-}
-
-.legal-content {
-  max-width: 900px;
-  margin: auto;
-}
-
-.legal-content h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: var(--primary-dark);
-}
-
-.legal-content h3 {
-  font-size: 18px;
-  margin: 25px 0 8px;
-  color: var(--dark);
-}
-
-.legal-content p,
-.legal-content li {
-  color: var(--text);
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.legal-content ul {
-  padding-right: 25px;
-  margin-bottom: 15px;
-}
-
-.legal-date {
-  display: inline-block;
-  background: #eaf6f5;
-  color: var(--primary-dark);
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  margin-bottom: 20px;
-  font-weight: 800;
-}
-
-.legal-box {
-  background: var(--light);
-  padding: 22px;
-  border-radius: 15px;
-  margin: 20px 0;
-  border-right: 4px solid var(--primary);
-}
-
-.legal-box a {
-  color: var(--primary);
-  font-weight: 800;
-  text-decoration: underline;
-}
-
-footer {
-  background: #102f36;
-  color: white;
-  padding: 55px 0 20px;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
-  gap: 35px;
-  margin-bottom: 35px;
-}
-
-.footer-brand {
-  font-size: 23px;
-  font-weight: 900;
-  margin-bottom: 12px;
-}
-
-footer p {
-  color: #c3d4d6;
-  font-size: 13px;
-}
-
-footer h3 {
-  font-size: 17px;
-  margin-bottom: 15px;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  font-size: 13px;
-  color: #c3d4d6;
-}
-
-.footer-links a:hover {
-  color: #ffdc8b;
-}
-
-.copyright {
-  text-align: center;
-  border-top: 1px solid rgba(255,255,255,.13);
-  padding-top: 18px;
-  font-size: 12px;
-  color: #a9c0c3;
-}
-
-.back-top {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  width: 45px;
-  height: 45px;
-  display: grid;
-  place-items: center;
-  background: var(--primary);
-  color: white;
-  border-radius: 14px;
-  box-shadow: var(--shadow);
-  z-index: 500;
-  font-size: 20px;
-}
-
-@media (max-width: 850px) {
-  .nav-links {
-    gap: 12px;
-    font-size: 12px;
-  }
-
-  .intro-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .features-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    padding: 12px 0;
-    gap: 10px;
-  }
-
-  .nav-links {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .nav-download {
-    padding: 6px 12px;
-  }
-
-  .hero {
-    padding: 70px 0;
-  }
-
-  .hero p {
-    font-size: 15px;
-  }
-
-  .section {
-    padding: 60px 0;
-  }
-
-  .features-grid,
-  .steps-grid,
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .feature-card {
-    padding: 23px;
-  }
-
-  .hero-buttons .btn {
-    width: 100%;
-  }
-
-  .social-link {
-    width: 100%;
-    text-align: center;
-  }
-}
+:root{--sea:#0a3d49;--turq:#139ea0;--sand:#f7f0e3;--sun:#f08a4b;--ink:#10282e;--mut:#52676c;--line:#e4dccb}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:Cairo,sans-serif;color:var(--ink);background:#fffdf8;line-height:1.9}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.w{width:min(1120px,92%);margin:auto}
+h1,h2{font-family:Lalezar,Cairo,sans-serif;font-weight:400;line-height:1.35}h3{font-family:Cairo,sans-serif;font-weight:800;line-height:1.5}
+header{position:sticky;top:0;z-index:9;background:rgba(255,253,248,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:66px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font:400 28px Lalezar,Cairo;color:var(--sea)}
+.brand i{width:40px;height:40px;border-radius:12px;background:var(--sea);display:grid;place-items:center;font-style:normal;font-size:21px}
+nav{display:flex;align-items:center;gap:22px;font-weight:700;font-size:14px;color:var(--mut)}
+nav a:hover{color:var(--turq)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:999px;font-weight:800;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.b1{background:var(--sun);color:var(--ink)}
+.b2{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.b3{background:var(--ink);color:#fff}
+nav .btn{padding:8px 18px;color:var(--ink)}
+.hero{background:var(--sea);color:#fff;padding:64px 0 0}
+.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(42px,7vw,76px);margin-bottom:14px}
+.hero p{font-size:18px;color:#d3e6e4;max-width:34em;margin-bottom:26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero small{display:block;margin-top:16px;color:#9fc3c2;font-size:13px}
+.hero svg.art{width:100%;max-width:430px;margin:0 auto;display:block}
+svg text{font-family:Cairo,sans-serif}
+.wave{display:block;width:100%;height:54px;margin-top:-1px}
+.s{padding:84px 0}.sand{background:var(--sand)}.dark{background:var(--sea);color:#fff}
+.hd{max-width:680px;margin:0 auto 44px;text-align:center}
+.hd h2{font-size:clamp(30px,4.6vw,46px);margin-bottom:8px}
+.hd p{color:var(--mut)}.dark .hd p{color:#b7d3d2}
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.about h2{font-size:clamp(30px,4.4vw,42px);margin-bottom:14px}
+.about p{color:var(--mut);margin-bottom:12px}
+.facts{background:var(--sand);border-radius:28px;padding:28px;display:grid;gap:14px}
+.facts div{display:flex;gap:14px;align-items:center;font-weight:700}
+.facts b{font-size:26px}
+.sv{display:grid;grid-template-columns:repeat(3,1fr);gap:0 40px}
+.sv div{padding:26px 0;border-top:2px solid var(--line)}
+.ic{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;font-size:27px;margin-bottom:10px;background:var(--c)}
+.sv h3{font-size:20px}.sv p{color:var(--mut);font-size:14.5px}
+.grp{margin-bottom:26px}.grp h3{font-size:19px;margin-bottom:12px;color:#ffd9b8}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{padding:7px 18px;border-radius:999px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.22);font-weight:600;font-size:15px}
+.dark .txt{max-width:760px;color:#c9dfde;margin-top:10px}
+.pc{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:38px}.pc figure{background:rgba(255,255,255,.07);border-radius:22px;overflow:hidden}.pc svg{display:block;width:100%}.pc figcaption{padding:12px 16px 18px;font-size:14px;color:#c9dfde}.pc strong{display:block;font:400 24px Lalezar,Cairo;color:#fff}.st{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.st div{text-align:center}
+.st b{width:50px;height:50px;border-radius:50%;background:var(--sun);display:grid;place-items:center;margin:0 auto 12px;font:400 26px Lalezar}
+.st p{color:var(--mut);font-size:14.5px}
+.note{background:#fff4e2;border:1px solid #f1d7a8;border-radius:16px;padding:16px 20px;margin-top:34px;font-size:14px;color:#6a4d17}
+.band{background:var(--sun);color:var(--ink);text-align:center;padding:70px 0}
+.band h2{font-size:clamp(32px,5vw,50px);margin-bottom:8px}
+.band p{margin-bottom:22px;font-weight:600}
+.faq{max-width:820px;margin:auto}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:800}
+details p{color:var(--mut);font-size:14.5px;margin-top:8px}
+.ct{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
+.ct a{border:1.5px solid var(--line);border-radius:20px;padding:22px;text-align:center;transition:.2s}
+.ct a:hover{border-color:var(--turq);background:#f1fafa}
+.ct b{display:block;font-size:30px}.ct strong{display:block}.ct span{color:var(--mut);font-size:14px;word-break:break-all}
+.soc{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.soc a{padding:9px 24px;border-radius:999px;background:var(--sea);color:#fff;font-weight:700}
+.lg{max-width:820px;margin:auto}
+.lg h2{font-size:36px;margin-bottom:6px}
+.lg .d{display:inline-block;background:#e6f3f2;color:var(--sea);border-radius:99px;padding:2px 14px;font-size:12px;font-weight:700;margin-bottom:14px}
+.lg p,.lg li{color:var(--mut);font-size:14.5px;margin-bottom:8px}
+.lg ul{padding-right:22px}.lg li strong{color:var(--ink)}
+.lg a:not(.btn){color:var(--turq);font-weight:700;text-decoration:underline}
+.box{background:#fff;border-right:4px solid var(--turq);border-radius:12px;padding:18px 20px;margin-top:14px}
+footer{background:var(--ink);color:#c3d4d6;padding:50px 0 18px;font-size:13.5px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-bottom:28px}
+footer h3{color:#fff;font-size:17px;margin-bottom:10px}
+footer .fb{font:400 28px Lalezar;color:#fff}
+footer a{display:block}footer a:hover{color:var(--sun)}
+.cp{border-top:1px solid rgba(255,255,255,.12);padding-top:16px;text-align:center;font-size:12.5px}
+@media(max-width:860px){.hero .w,.about{grid-template-columns:1fr}.sv,.st,.ct,.pc{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr}nav a:not(.btn){display:none}.hero{padding-top:44px}}
+@media(max-width:560px){.sv,.st,.ct,.fg,.pc{grid-template-columns:1fr}.s{padding:60px 0}.cta .btn{width:100%;justify-content:center}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "مطروح الروح",
-  "operatingSystem": "Android",
-  "applicationCategory": "TravelApplication",
-  "description": "دليل سياحي وخدمي لاكتشاف مرسى مطروح والوصول إلى الأماكن والخدمات والأنشطة المتنوعة.",
-  "softwareVersion": "1.1.2",
-  "inLanguage": "ar",
-  "downloadUrl": "https://play.google.com/store/apps/details?id=com.mr.matrouhrouh",
-  "installUrl": "https://play.google.com/store/apps/details?id=com.mr.matrouhrouh"
-}
+{"@context":"https://schema.org","@graph":[
+{"@type":"MobileApplication","name":"مطروح الروح","operatingSystem":"Android","applicationCategory":"TravelApplication","softwareVersion":"1.1.2","inLanguage":"ar","description":"دليل سياحي وخدمي لاكتشاف مرسى مطروح: الشواطئ والإقامة والمطاعم والمواصلات والخدمات.","downloadUrl":"https://play.google.com/store/apps/details?id=com.mr.matrouhrouh","author":{"@type":"Person","name":"محمد جلال صالح"},"areaServed":{"@type":"City","name":"مرسى مطروح"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"ما هو تطبيق مطروح الروح؟","acceptedAnswer":{"@type":"Answer","text":"دليل سياحي وخدمي لاكتشاف الأماكن والخدمات والأنشطة في مرسى مطروح في مكان واحد."}},
+{"@type":"Question","name":"هل أحجز شقة أو فندق من التطبيق؟","acceptedAnswer":{"@type":"Answer","text":"لا. التطبيق يعرض المعلومات ووسائل التواصل، والاتفاق والحجز والدفع يتمان مباشرة مع مقدم الخدمة."}},
+{"@type":"Question","name":"هل التطبيق متاح للآيفون؟","acceptedAnswer":{"@type":"Answer","text":"الإصدار المتاح حاليًا لأجهزة Android على Google Play."}},
+{"@type":"Question","name":"كيف أطلب حذف بياناتي أو إعلاني؟","acceptedAnswer":{"@type":"Answer","text":"تواصل معنا بأي وسيلة من قسم حذف البيانات وسننفذ الطلب بعد التحقق من صاحبه."}}]}]}
 </script>
 </head>
-
 <body>
 
-<div class="topbar">
-  مطروح الروح — رحلتك في مرسى مطروح تبدأ من هنا
-</div>
+<header><div class="w nav">
+<a href="#home" class="brand"><i>🌊</i>مطروح الروح</a>
+<nav aria-label="القائمة الرئيسية">
+<a href="#services">الأقسام</a><a href="#places">الشواطئ والأماكن</a><a href="#faq">الأسئلة</a><a href="#contact">تواصل</a><a href="#privacy">الخصوصية</a>
+<a class="btn b1" href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" rel="noopener">حمّل التطبيق</a>
+</nav></div></header>
 
-<header>
-  <div class="container navbar">
-
-    <a href="#home" class="brand">
-      <span class="brand-icon">🌊</span>
-      <span>مطروح الروح</span>
-    </a>
-
-    <nav class="nav-links">
-      <a href="#home">الرئيسية</a>
-      <a href="#about">عن التطبيق</a>
-      <a href="#features">المميزات</a>
-      <a href="#faq">الأسئلة الشائعة</a>
-      <a href="#privacy">الخصوصية</a>
-      <a href="#contact">تواصل معنا</a>
-      <a href="#download" class="nav-download">تحميل التطبيق</a>
-    </nav>
-
-  </div>
-</header>
-
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="bg" viewBox="0 0 300 180"><rect width="300" height="180" fill="url(#sk)"/><circle cx="228" cy="66" r="26" fill="#fff6e0"/><rect y="108" width="300" height="72" fill="url(#se)"/><path d="M0 132q20-8 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0" fill="none" stroke="#fff" stroke-width="2" opacity=".4"/></symbol></defs></svg>
 <main>
-
-<section class="hero" id="home">
-  <div class="container">
-    <div class="hero-content">
-
-      <span class="hero-label">دليلك السياحي والخدمي في مرسى مطروح</span>
-
-      <h1>
-        اكتشف مطروح<br>
-        <span>بطريقة مختلفة</span>
-      </h1>
-
-      <p>
-        من الشواطئ والأماكن الجميلة إلى الإقامة والمطاعم والمواصلات
-        والخدمات اليومية... اجعل تطبيق مطروح الروح رفيقك في رحلتك.
-      </p>
-
-      <div class="hero-buttons">
-        <a class="btn btn-white"
-           href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh"
-           target="_blank" rel="noopener">
-          ▶ تحميل التطبيق
-        </a>
-
-        <a class="btn btn-outline" href="#features">
-          اكتشف المميزات
-        </a>
-      </div>
-
-    </div>
-  </div>
+<section class="hero" id="home"><div class="w">
+<div>
+<h1>مرسى مطروح كلها في جيبك</h1>
+<p>شواطئ وشاليهات وفنادق ومطاعم ومواصلات وخدمات يومية في تطبيق واحد. اعرف الأقرب ليك، وكلّم مقدم الخدمة مباشرة. رحلة جوه الرحلة.</p>
+<div class="cta">
+<a class="btn b1" href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" rel="noopener">▶ حمّل من Google Play</a>
+<a class="btn b2" href="#services">شوف الأقسام</a></div>
+<small>متاح لأجهزة Android · الإصدار 1.1.2</small>
+</div>
+<svg class="art" viewBox="0 0 480 520" role="img" aria-label="رسم لتطبيق مطروح الروح على الهاتف أمام غروب الشمس على البحر">
+<defs>
+<linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe6bf"/><stop offset="1" stop-color="#f6a56a"/></linearGradient>
+<linearGradient id="se" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fb3b0"/><stop offset="1" stop-color="#0b6e78"/></linearGradient>
+<clipPath id="sc"><rect width="480" height="520" rx="40"/></clipPath>
+<clipPath id="ph"><rect x="160" y="132" width="160" height="336" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#sc)">
+<rect width="480" height="520" fill="url(#sk)"/>
+<circle cx="240" cy="270" r="112" fill="#fff3d6" opacity=".35"/>
+<circle cx="240" cy="270" r="72" fill="#fff6e0"/>
+<rect y="300" width="480" height="220" fill="url(#se)"/>
+<g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".4">
+<path d="M0 330q30-14 60 0t60 0 60 0 60 0 60 0 60 0 60 0 60 0"/>
+<path d="M0 372q30-14 60 0t60 0 60 0 60 0 60 0 60 0 60 0 60 0"/>
+<path d="M0 414q30-14 60 0t60 0 60 0 60 0 60 0 60 0 60 0 60 0"/></g>
+<path d="M392 336v-56l38 52z" fill="#fff"/><path d="M386 340h56l-10 14h-36z" fill="#10282e"/>
+<path d="M0 468Q120 424 240 458T480 444V520H0z" fill="#f3dfb8"/>
+<rect x="150" y="120" width="180" height="360" rx="30" fill="#10282e"/>
+<rect x="160" y="132" width="160" height="336" rx="22" fill="#fbf7ee"/>
+<g clip-path="url(#ph)">
+<rect x="160" y="132" width="160" height="62" fill="#0a3d49"/>
+<text x="240" y="172" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">مطروح الروح</text>
+<rect x="174" y="206" width="132" height="26" rx="13" fill="#e6efed"/>
+<g stroke="#e4dccb" fill="#fff">
+<rect x="174" y="246" width="132" height="56" rx="14"/><rect x="174" y="312" width="132" height="56" rx="14"/><rect x="174" y="378" width="132" height="56" rx="14"/></g>
+<circle cx="284" cy="274" r="14" fill="#139ea0"/><circle cx="284" cy="340" r="14" fill="#f08a4b"/><circle cx="284" cy="406" r="14" fill="#e5a93d"/>
+<g fill="#cfd9d6"><rect x="190" y="262" width="70" height="7" rx="3.5"/><rect x="190" y="277" width="46" height="7" rx="3.5"/><rect x="190" y="328" width="70" height="7" rx="3.5"/><rect x="190" y="343" width="46" height="7" rx="3.5"/><rect x="190" y="394" width="70" height="7" rx="3.5"/><rect x="190" y="409" width="46" height="7" rx="3.5"/></g>
+<rect x="160" y="442" width="160" height="26" fill="#fff"/></g>
+<text x="284" y="279" text-anchor="middle" font-size="14">🏖️</text><text x="284" y="345" text-anchor="middle" font-size="14">🍽️</text><text x="284" y="411" text-anchor="middle" font-size="14">🏨</text><path d="M60 110q14-12 28 0M104 84q10-9 20 0M380 150q12-10 24 0" fill="none" stroke="#10282e" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+</g></svg>
+</div>
+<svg class="wave" viewBox="0 0 1440 54" preserveAspectRatio="none" aria-hidden="true"><path fill="#fffdf8" d="M0 30Q180 0 360 26T720 26T1080 26T1440 26V54H0z"/></svg>
 </section>
 
-<section class="section" id="about">
-  <div class="container">
-
-    <div class="intro-grid">
-
-      <div class="intro-text">
-        <div class="section-heading" style="text-align:right;margin:0 0 20px;">
-          <small>من نحن؟</small>
-          <h2>مطروح الروح... رحلة جوه الرحلة</h2>
-        </div>
-
-        <p>
-          مطروح الروح هو تطبيق سياحي وخدمي صُمم لمساعدة الزائرين
-          وأهالي مدينة مرسى مطروح على اكتشاف الأماكن والخدمات
-          والوصول إلى المعلومات التي يحتاجون إليها بسهولة.
-        </p>
-
-        <p>
-          يجمع التطبيق مجموعة متنوعة من الأدلة، تشمل أماكن الإقامة
-          والمطاعم والشواطئ والأنشطة الترفيهية والمواصلات والخدمات
-          الطبية والمنزلية والمحلات والورش وغيرها.
-        </p>
-
-        <p>
-          هدفنا أن تكون المعلومات أقرب إليك، وأن تجد ما تبحث عنه
-          في مكان واحد، لتقضي وقتك في الاستمتاع بالرحلة بدلًا من
-          إضاعة الوقت في البحث.
-        </p>
-
-        <p>
-          مطروح الروح ليس مجرد دليل للأماكن، بل محاولة لتقديم
-          تجربة أكثر سهولة وتنظيمًا لاكتشاف تفاصيل المدينة.
-        </p>
-      </div>
-
-      <div class="intro-card">
-        <div class="big-icon">🏖️</div>
-        <h3>رحلة جوه الرحلة</h3>
-        <p>
-          اكتشف أماكن جديدة، تعرّف على الخدمات القريبة منك،
-          وشاهد ما تقدمه مرسى مطروح من تجارب وأنشطة متنوعة.
-        </p>
-        <br>
-        <p><strong>الإصدار الحالي: 1.1.2</strong></p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<section class="section section-light" id="features">
-  <div class="container">
-
-    <div class="section-heading">
-      <small>كل ما تحتاجه في مكان واحد</small>
-      <h2>اكتشف أقسام تطبيق مطروح الروح</h2>
-      <p>
-        مجموعة من الأدلة والخدمات التي تساعدك على التعرف على
-        مرسى مطروح والاستفادة من وقتك خلالها.
-      </p>
-    </div>
-
-    <div class="features-grid">
-
-      <article class="feature-card">
-        <div class="feature-icon">🏨</div>
-        <h3>الإقامة والمصايف</h3>
-        <p>
-          اكتشف الشقق المصيفية والفنادق والشاليهات،
-          وتعرّف على التفاصيل والصور ووسائل التواصل.
-          ويمكنك الاستعلام عن أسعار بعض الوحدات حسب موعد رحلتك.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🍽️</div>
-        <h3>المطاعم والكافيهات</h3>
-        <p>
-          تعرّف على المطاعم والمقاهي والأماكن التي يمكنك
-          زيارتها والاستمتاع بوقتك فيها.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🏝️</div>
-        <h3>الشواطئ والأماكن</h3>
-        <p>
-          اكتشف شواطئ مرسى مطروح والأماكن السياحية،
-          وتعرّف على مواقعها والمعلومات المتاحة عنها.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🚤</div>
-        <h3>الأنشطة الترفيهية</h3>
-        <p>
-          تعرّف على الرحلات البحرية واليخوت والسفاري
-          والألعاب المائية والأكوا بارك والأنشطة الترفيهية المختلفة.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🚕</div>
-        <h3>المواصلات والتنقل</h3>
-        <p>
-          دليل للمواصلات المتاحة، مثل التاكسي والفان
-          والميكروباص والرحلات الداخلية ووسائل الوصول للشواطئ.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🏥</div>
-        <h3>الخدمات الطبية</h3>
-        <p>
-          تعرّف على العيادات والصيدليات والمعامل ومراكز الأشعة
-          والخدمات الطبية المدرجة في الدليل.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">📍</div>
-        <h3>الأقرب إليك</h3>
-        <p>
-          استخدم خاصية الموقع الجغرافي للتعرف على الأماكن
-          والخدمات القريبة منك عند منح التطبيق إذن الوصول للموقع.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🏪</div>
-        <h3>المحلات والخدمات اليومية</h3>
-        <p>
-          دليل للمحلات والبقالة والورش والخدمات المنزلية
-          وغيرها من الاحتياجات اليومية.
-        </p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">🎥</div>
-        <h3>الصور والفيديوهات</h3>
-        <p>
-          شاهد الصور ومقاطع الفيديو المتاحة لبعض الأماكن
-          والوحدات والخدمات لتكوين فكرة أوضح قبل التواصل.
-        </p>
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-
-    <div class="section-heading">
-      <small>بكل سهولة</small>
-      <h2>كيف تستخدم التطبيق؟</h2>
-      <p>ثلاث خطوات بسيطة تساعدك على الوصول إلى ما تبحث عنه.</p>
-    </div>
-
-    <div class="steps-grid">
-
-      <div class="step">
-        <div class="step-number">1</div>
-        <h3>حمّل التطبيق</h3>
-        <p>
-          حمّل مطروح الروح من متجر Google Play
-          وثبّته على هاتفك.
-        </p>
-      </div>
-
-      <div class="step">
-        <div class="step-number">2</div>
-        <h3>اختر القسم</h3>
-        <p>
-          تصفح الأقسام المختلفة واختر المكان أو الخدمة
-          التي تبحث عنها.
-        </p>
-      </div>
-
-      <div class="step">
-        <div class="step-number">3</div>
-        <h3>تواصل مباشرة</h3>
-        <p>
-          استخدم بيانات التواصل المتاحة للتواصل مباشرة
-          مع مقدم الخدمة والاستفسار عن التفاصيل.
-        </p>
-      </div>
-
-    </div>
-
-    <div class="notice">
-      <strong>تنويه:</strong>
-      مطروح الروح دليل للمعلومات والتواصل المباشر،
-      ولا ينفذ الحجوزات أو يستلم المدفوعات نيابة عن مقدمي الخدمات.
-      يرجى التأكد من الأسعار والتوافر والتفاصيل مباشرة مع مقدم الخدمة.
-    </div>
-
-  </div>
-</section>
-
-<section class="download-section" id="download">
-  <div class="container">
-
-    <h2>ابدأ رحلتك مع مطروح الروح</h2>
-
-    <p>
-      اكتشف مرسى مطروح، وتعرّف على الأماكن والخدمات
-      واجعل رحلتك أكثر سهولة.
-    </p>
-
-    <a class="btn"
-       href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh"
-       target="_blank" rel="noopener">
-      ▶ تحميل التطبيق من Google Play
-    </a>
-
-    <p style="margin-top:18px;font-size:13px;">
-      الإصدار 1.1.2 — متاح لأجهزة Android
-    </p>
-
-  </div>
-</section>
-
-<section class="section section-light" id="social">
-  <div class="container">
-
-    <div class="section-heading">
-      <small>تابعنا</small>
-      <h2>كن قريبًا من مطروح الروح</h2>
-      <p>
-        تابع صفحاتنا الرسمية لمعرفة الأماكن والمحتوى
-        والتحديثات المتعلقة بمرسى مطروح.
-      </p>
-    </div>
-
-    <div class="social-grid">
-
-      <a class="social-link"
-         href="https://www.facebook.com/profile.php?id=61586297591303"
-         target="_blank" rel="noopener">
-        Facebook
-      </a>
-
-      <a class="social-link"
-         href="https://www.instagram.com/matrouh.rouh?bqrl=NjY5azZnZnk0dDJv"
-         target="_blank" rel="noopener">
-        Instagram
-      </a>
-
-      <a class="social-link"
-         href="https://youtube.com/@matruhrouh?si=3Re3gWgn1ScEIOhG"
-         target="_blank" rel="noopener">
-        YouTube
-      </a>
-
-    </div>
-
-  </div>
-</section>
-
-<section class="section" id="contact">
-  <div class="container">
-
-    <div class="section-heading">
-      <small>نحن قريبون منك</small>
-      <h2>تواصل مع مطروح الروح</h2>
-      <p>
-        للاستفسارات أو الملاحظات أو طلبات تعديل وحذف البيانات،
-        يمكنك التواصل معنا من خلال الوسائل الرسمية التالية.
-      </p>
-    </div>
-
-    <div class="features-grid">
-
-      <article class="feature-card">
-        <div class="feature-icon">✉️</div>
-        <h3>البريد الإلكتروني</h3>
-        <p>للاستفسارات والطلبات الرسمية.</p>
-        <p><a href="mailto:abomalak666666666666@gmail.com">abomalak666666666666@gmail.com</a></p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">📞</div>
-        <h3>الهاتف</h3>
-        <p>للتواصل والاستفسارات.</p>
-        <p><a href="tel:01559325688">01559325688</a></p>
-      </article>
-
-      <article class="feature-card">
-        <div class="feature-icon">💬</div>
-        <h3>واتساب</h3>
-        <p>للتواصل المباشر وإرسال الطلبات.</p>
-        <p><a href="https://wa.me/201559325688" target="_blank" rel="noopener">ابدأ محادثة واتساب</a></p>
-      </article>
-
-    </div>
-
-    <div class="legal-box" style="text-align:center;margin-top:25px;">
-      <strong>المطور والمسؤول عن التطبيق</strong>
-      <p style="margin-top:8px;">محمد جلال صالح</p>
-      <p><strong>M-G-S</strong></p>
-    </div>
-
-  </div>
-</section>
-
-<section class="section" id="faq">
-  <div class="container">
-
-    <div class="section-heading">
-      <small>هل لديك سؤال؟</small>
-      <h2>الأسئلة الشائعة</h2>
-      <p>إجابات عن بعض الأسئلة المتعلقة باستخدام التطبيق.</p>
-    </div>
-
-    <div class="faq-list">
-
-      <details>
-        <summary>ما هو تطبيق مطروح الروح؟</summary>
-        <p>
-          تطبيق دليل سياحي وخدمي يساعدك على اكتشاف الأماكن
-          والخدمات والأنشطة المختلفة في مرسى مطروح.
-        </p>
-      </details>
-
-      <details>
-        <summary>هل يمكنني حجز شقة أو فندق من خلال التطبيق؟</summary>
-        <p>
-          التطبيق يعرض المعلومات ووسائل التواصل المتاحة،
-          ويتم الاتفاق والحجز مباشرة بين المستخدم ومقدم الخدمة
-          خارج التطبيق.
-        </p>
-      </details>
-
-      <details>
-        <summary>هل يمكنني معرفة أسعار الإقامة؟</summary>
-        <p>
-          تتوفر معلومات الأسعار لبعض وحدات الإقامة،
-          ويمكن الاستفسار من مقدم الخدمة عن السعر النهائي
-          والتوافر حسب موعد الرحلة.
-        </p>
-      </details>
-
-      <details>
-        <summary>ما فائدة خاصية الأقرب إليك؟</summary>
-        <p>
-          تساعدك الخاصية على التعرف على الأماكن والخدمات القريبة
-          من موقعك، وتتطلب إذن الوصول إلى الموقع الجغرافي.
-        </p>
-      </details>
-
-      <details>
-        <summary>هل التطبيق متاح لأجهزة iPhone؟</summary>
-        <p>
-          رابط التحميل المتاح حاليًا على هذه الصفحة هو إصدار
-          Android الموجود على متجر Google Play.
-        </p>
-      </details>
-
-      <details>
-        <summary>كيف يمكنني طلب حذف بياناتي؟</summary>
-        <p>
-          يمكنك مراجعة قسم طلب حذف البيانات الموجود في هذه الصفحة
-          لمعرفة طريقة تقديم الطلب.
-        </p>
-      </details>
-
-      <details>
-        <summary>كيف أتواصل مع فريق مطروح الروح؟</summary>
-        <p>
-          يمكنك التواصل عبر البريد الإلكتروني أو الهاتف أو واتساب
-          من خلال قسم «تواصل معنا» الموجود في هذه الصفحة.
-        </p>
-      </details>
-
-    </div>
-
-  </div>
-</section>
-
-<section class="section legal-section section-light" id="privacy">
-  <div class="container">
-    <div class="legal-content">
-
-      <h2>سياسة الخصوصية</h2>
-      <span class="legal-date">آخر تحديث: 24 نوفمبر 2026</span>
-
-      <p>
-        نرحب بك في تطبيق مطروح الروح. نحن نحترم خصوصية المستخدمين
-        ونسعى إلى التعامل مع المعلومات المرتبطة باستخدام التطبيق
-        بمسؤولية وشفافية.
-      </p>
-
-      <h3>1. نطاق سياسة الخصوصية</h3>
-      <p>
-        توضح هذه السياسة كيفية التعامل مع المعلومات والأذونات
-        المرتبطة باستخدام تطبيق مطروح الروح، وما يتعلق بحماية
-        الخصوصية وحقوق المستخدمين.
-      </p>
-
-      <h3>2. الموقع الجغرافي</h3>
-      <p>
-        قد يطلب التطبيق إذن الوصول إلى الموقع الجغرافي للجهاز
-        عند استخدام خاصية «الأقرب إليك»، وذلك للمساعدة في تحديد
-        الأماكن والخدمات القريبة من موقع المستخدم.
-      </p>
-      <p>
-        يمكن للمستخدم رفض إذن الموقع أو إيقافه في أي وقت من
-        إعدادات الجهاز، وقد لا تعمل الخاصية المرتبطة بالموقع
-        بالشكل المطلوب عند رفض الإذن.
-      </p>
-
-      <h3>3. المعلومات التي قد يتم التعامل معها</h3>
-      <p>
-        يعتمد نوع المعلومات التي يتم التعامل معها على وظائف
-        التطبيق والأذونات التي يوافق عليها المستخدم والخدمات
-        التقنية المستخدمة لتشغيل التطبيق.
-      </p>
-      <p>
-        قد تشمل المعلومات التقنية بيانات تشغيل التطبيق
-        أو معلومات الجهاز أو بيانات الموقع عند استخدام
-        الخصائص التي تتطلب ذلك، وفقًا لطريقة عمل الخدمات
-        المستخدمة داخل التطبيق.
-      </p>
-
-      <h3>4. كيفية استخدام المعلومات</h3>
-      <p>قد يتم استخدام المعلومات اللازمة من أجل:</p>
-      <ul>
-        <li>تشغيل وظائف التطبيق وتقديم الخدمات المطلوبة.</li>
-        <li>عرض الأماكن والخدمات القريبة عند استخدام خاصية الموقع.</li>
-        <li>تحسين أداء التطبيق ومعالجة الأخطاء الفنية.</li>
-        <li>المحافظة على أمن التطبيق ومنع إساءة الاستخدام.</li>
-      </ul>
-
-      <h3>5. مشاركة المعلومات مع أطراف أخرى</h3>
-      <p>
-        قد يعتمد التطبيق على خدمات تقنية تابعة لأطراف أخرى،
-        مثل خدمات الخرائط أو استضافة المحتوى أو خدمات متجر
-        التطبيقات أو غيرها من الخدمات اللازمة لتشغيل بعض الوظائف.
-      </p>
-      <p>
-        قد تتعامل هذه الجهات مع بعض البيانات وفقًا لطبيعة
-        خدماتها وسياسات الخصوصية الخاصة بها.
-      </p>
-      <p>
-        لا نبيع البيانات الشخصية للمستخدمين. وعندما يختار
-        المستخدم التواصل مع مقدم خدمة من خلال وسائل التواصل
-        المتاحة، فإن البيانات التي يشاركها معه تخضع لطبيعة
-        وسيلة التواصل وسياسات الطرف الذي يتواصل معه.
-      </p>
-
-      <h3>6. الروابط الخارجية</h3>
-      <p>
-        قد يحتوي التطبيق أو الموقع على روابط لمواقع أو خدمات
-        خارجية. عند الانتقال إلى هذه المواقع، تصبح سياسة
-        الخصوصية الخاصة بالجهة الخارجية هي المرجع في التعامل
-        مع المعلومات التي يقدمها المستخدم لها.
-      </p>
-
-      <h3>7. حماية المعلومات</h3>
-      <p>
-        نحرص على اتخاذ تدابير مناسبة للمحافظة على المعلومات
-        المرتبطة بالتطبيق، مع العلم أنه لا توجد وسيلة إلكترونية
-        لنقل البيانات أو تخزينها يمكن ضمان أمنها بصورة مطلقة.
-      </p>
-
-      <h3>8. الاحتفاظ بالبيانات</h3>
-      <p>
-        يتم التعامل مع المعلومات والبيانات وفقًا للغرض الذي
-        جُمعت أو عولجت من أجله، وبما يتناسب مع طبيعة الخدمات
-        المستخدمة والمتطلبات القانونية المعمول بها.
-      </p>
-
-      <h3>9. حقوق المستخدم</h3>
-      <p>
-        يمكن للمستخدم التحكم في الأذونات التي يمنحها للتطبيق
-        من خلال إعدادات جهازه، كما يمكنه التواصل معنا لتقديم
-        استفسار أو طلب متعلق ببياناته الشخصية.
-      </p>
-
-      <h3>10. خصوصية الأطفال</h3>
-      <p>
-        لا نهدف إلى جمع بيانات شخصية من الأطفال بصورة متعمدة
-        دون الحصول على الموافقات اللازمة وفقًا للقوانين المعمول بها.
-      </p>
-
-      <h3>11. التعديلات على سياسة الخصوصية</h3>
-      <p>
-        قد يتم تحديث سياسة الخصوصية من وقت لآخر لمواكبة
-        التغييرات في وظائف التطبيق أو المتطلبات القانونية.
-        وسيتم نشر أي تحديث على هذه الصفحة مع تعديل تاريخ التحديث.
-      </p>
-
-      <h3>12. التواصل بشأن الخصوصية</h3>
-      <p>
-        إذا كان لديك استفسار يتعلق بسياسة الخصوصية أو طريقة
-        التعامل مع البيانات، يمكنك التواصل معنا عبر البريد الإلكتروني:
-        <a href="mailto:abomalak666666666666@gmail.com">abomalak666666666666@gmail.com</a>
-        أو الهاتف <a href="tel:01559325688">01559325688</a>
-        أو <a href="https://wa.me/201559325688" target="_blank" rel="noopener">واتساب</a>.
-      </p>
-
-      <div class="legal-box">
-        <strong>طلب حذف البيانات:</strong>
-        إذا كنت ترغب في تقديم طلب متعلق بحذف بياناتك،
-        انتقل إلى قسم
-        <a href="#delete-data">طلب حذف البيانات</a>
-        لمعرفة خطوات تقديم الطلب.
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section legal-section" id="delete-data">
-  <div class="container">
-    <div class="legal-content">
-
-      <h2>طلب حذف البيانات أو تعديلها</h2>
-      <span class="legal-date">حقوق المستخدمين ومقدمي الخدمات</span>
-
-      <p>
-        يتيح مطروح الروح للمستخدمين ومقدمي الخدمات وأصحاب الأنشطة
-        المدرجة في الدليل تقديم طلبات تتعلق بحذف البيانات أو تعديلها.
-        ويشمل ذلك البيانات الشخصية التي نتحكم فيها، وكذلك معلومات
-        النشاط أو الإعلان أو بيانات التواصل المعروضة داخل التطبيق،
-        وفقًا لطبيعة البيانات وصلاحياتنا والمتطلبات القانونية.
-      </p>
-
-      <h3>1. من يمكنه تقديم الطلب؟</h3>
-      <ul>
-        <li>مستخدم التطبيق الذي يرغب في طلب حذف بياناته الشخصية.</li>
-        <li>مقدم الخدمة أو صاحب النشاط المدرج الذي يرغب في حذف بياناته أو تعديلها.</li>
-        <li>صاحب المحتوى أو من يمثله قانونيًا عند وجود سبب مشروع للطلب.</li>
-      </ul>
-
-      <h3>2. أنواع الطلبات المتاحة</h3>
-      <ul>
-        <li>طلب حذف البيانات الشخصية المرتبطة باستخدام التطبيق، في حدود البيانات التي نتحكم فيها.</li>
-        <li>طلب حذف بيانات مقدم الخدمة أو إزالة النشاط أو الإعلان من الدليل.</li>
-        <li>طلب تعديل اسم النشاط أو رقم الهاتف أو العنوان أو الصور أو معلومات الخدمة.</li>
-        <li>طلب تصحيح معلومات غير دقيقة أو الإبلاغ عن محتوى لم يعد صحيحًا أو مصرحًا بعرضه.</li>
-      </ul>
-
-      <h3>3. طريقة تقديم الطلب</h3>
-      <p>
-        أرسل طلبك باستخدام إحدى وسائل التواصل الرسمية التالية.
-        يُفضّل أن يكون عنوان رسالة البريد الإلكتروني:
-        «طلب حذف أو تعديل بيانات – مطروح الروح».
-      </p>
-
-      <div class="legal-box">
-        <p>
-          <strong>البريد الإلكتروني:</strong>
-          <a href="mailto:abomalak666666666666@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%A3%D9%88%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20-%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%B1%D9%88%D8%AD">abomalak666666666666@gmail.com</a>
-        </p>
-        <p>
-          <strong>الهاتف:</strong>
-          <a href="tel:01559325688">01559325688</a>
-        </p>
-        <p>
-          <strong>واتساب:</strong>
-          <a href="https://wa.me/201559325688" target="_blank" rel="noopener">اضغط هنا للتواصل عبر واتساب</a>
-        </p>
-      </div>
-
-      <h3>4. المعلومات التي يُرجى تضمينها</h3>
-      <p>
-        اكتب نوع الطلب بوضوح، واذكر وسيلة التواصل المرتبطة بالبيانات
-        إن وجدت. وبالنسبة لمقدمي الخدمات، يرجى ذكر اسم النشاط والقسم
-        الموجود به ورقم الهاتف أو رابط الإعلان، مع توضيح المطلوب:
-        حذف أو تعديل أو تصحيح. قد نطلب معلومات إضافية محدودة للتحقق
-        من هوية مقدم الطلب أو علاقته بالنشاط.
-      </p>
-
-      <h3>5. مراجعة الطلب وتنفيذه</h3>
-      <p>
-        تتم مراجعة الطلب والتحقق من هوية مقدمه بالقدر الضروري،
-        ثم نتعامل مع البيانات أو المحتوى الواقع تحت سيطرتنا.
-        وقد نتواصل مع مقدم الطلب لتوضيح بعض التفاصيل قبل تنفيذ
-        الحذف أو التعديل. تتم معالجة الطلب خلال مدة معقولة،
-        مع مراعاة حجم الطلب والمتطلبات القانونية.
-      </p>
-
-      <h3>6. حدود الحذف والتعديل</h3>
-      <p>
-        يقتصر تنفيذ الطلب على البيانات والمحتوى الذي نتحكم فيه
-        أو نملك صلاحية تعديله أو حذفه. ولا يمكننا حذف المعلومات
-        التي يحتفظ بها طرف خارجي بصورة مستقلة، مثل منصات التواصل
-        أو مزودي الخدمات، ويتعين تقديم طلب منفصل إلى الجهة المعنية
-        عند الحاجة.
-      </p>
-
-      <h3>7. البيانات التي قد يلزم الاحتفاظ بها</h3>
-      <p>
-        قد نحتفظ ببعض المعلومات بالقدر الذي يتطلبه القانون،
-        أو لأغراض أمنية أو لمنع الاحتيال أو معالجة النزاعات
-        وحماية الحقوق المشروعة، وذلك وفقًا للمتطلبات المعمول بها.
-      </p>
-
-      <h3>8. هل يؤدي حذف التطبيق إلى حذف البيانات؟</h3>
-      <p>
-        حذف التطبيق من الهاتف لا يعني بالضرورة حذف أي بيانات
-        قد تكون محفوظة لدى خدمات أو منصات خارجية. إذا كنت تريد
-        حذف بيانات تقع تحت سيطرتنا، يرجى إرسال طلب من خلال
-        وسائل التواصل الموضحة أعلاه.
-      </p>
-
-      <div class="notice">
-        لا ترسل كلمات المرور أو بيانات الدفع أو أرقام البطاقات
-        أو أي معلومات شديدة الحساسية. سنطلب فقط المعلومات
-        الضرورية لمراجعة الطلب والتحقق منه.
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section legal-section section-light" id="terms">
-  <div class="container">
-    <div class="legal-content">
-
-      <h2>الشروط والأحكام</h2>
-      <span class="legal-date">آخر تحديث: 24 نوفمبر 2026</span>
-
-      <p>
-        باستخدامك تطبيق مطروح الروح أو الموقع الإلكتروني،
-        فإنك توافق على الالتزام بالشروط والأحكام الموضحة أدناه.
-        يرجى قراءتها بعناية قبل استخدام الخدمات.
-      </p>
-
-      <h3>1. طبيعة التطبيق</h3>
-      <p>
-        مطروح الروح تطبيق دليل سياحي وخدمي يهدف إلى عرض
-        المعلومات المتعلقة بالأماكن والأنشطة والخدمات
-        المتنوعة في مرسى مطروح.
-      </p>
-
-      <h3>2. دور التطبيق</h3>
-      <p>
-        يقتصر دور التطبيق على عرض المعلومات المتاحة
-        وتسهيل الوصول إلى وسائل التواصل مع مقدمي الخدمات.
-        ولا يعمل التطبيق كوسيط لإتمام الحجوزات أو تحصيل
-        المدفوعات نيابة عن مقدمي الخدمات.
-      </p>
-
-      <h3>3. التعامل مع مقدمي الخدمات</h3>
-      <p>
-        تتم جميع الاتفاقات المتعلقة بالأسعار والحجوزات
-        والتوافر وطرق الدفع والخدمات مباشرة بين المستخدم
-        ومقدم الخدمة.
-      </p>
-      <p>
-        يتحمل كل طرف مسؤولية التحقق من تفاصيل الاتفاق
-        قبل إتمام أي تعامل.
-      </p>
-
-      <h3>4. دقة المعلومات وتحديثها</h3>
-      <p>
-        نسعى إلى تقديم معلومات مفيدة وواضحة، إلا أن الأسعار
-        ومواعيد العمل والتوافر وتفاصيل الخدمات قد تتغير.
-        لذلك لا نضمن أن تكون جميع المعلومات محدثة في كل وقت.
-      </p>
-
-      <h3>5. الأسعار والحجوزات</h3>
-      <p>
-        المعلومات المتعلقة بالأسعار، إن وجدت، هي معلومات
-        إرشادية قابلة للتغيير. يجب التأكد من السعر النهائي
-        والتوافر وشروط الحجز مباشرة من مقدم الخدمة.
-      </p>
-
-      <h3>6. مسؤولية المستخدم</h3>
-      <p>
-        يلتزم المستخدم باستخدام التطبيق لأغراض مشروعة،
-        وعدم إساءة استخدام محتواه أو محاولة تعطيل خدماته
-        أو الإضرار به أو استخدامه في أي نشاط مخالف للقانون.
-      </p>
-
-      <h3>7. الروابط والخدمات الخارجية</h3>
-      <p>
-        قد يوفر التطبيق روابط أو وسائل تواصل مع جهات خارجية.
-        ولا نتحكم بالضرورة في محتوى تلك الجهات أو خدماتها
-        أو سياسات الخصوصية الخاصة بها.
-      </p>
-
-      <h3>8. الملكية الفكرية</h3>
-      <p>
-        تخضع عناصر التصميم والمحتوى والعلامات والأسماء
-        الخاصة بالتطبيق لحقوق الملكية الفكرية لأصحابها.
-        ولا يجوز نسخ أو إعادة استخدام أي محتوى محمي
-        دون الحصول على إذن من صاحبه.
-      </p>
-
-      <h3>9. حدود المسؤولية</h3>
-      <p>
-        لا يتحمل التطبيق مسؤولية الاتفاقات أو المعاملات
-        التي تتم مباشرة بين المستخدمين ومقدمي الخدمات،
-        كما لا يضمن جودة أو توافر الخدمات التي يقدمها
-        أطراف خارجية.
-      </p>
-
-      <h3>10. تحديث التطبيق والشروط</h3>
-      <p>
-        قد نقوم بتطوير التطبيق أو تعديل بعض وظائفه،
-        كما قد يتم تحديث هذه الشروط عند الحاجة.
-        يتم نشر النسخة المحدثة على هذه الصفحة.
-      </p>
-
-      <h3>11. إيقاف الاستخدام</h3>
-      <p>
-        يجب على المستخدم التوقف عن استخدام التطبيق
-        إذا لم يوافق على أي من هذه الشروط.
-      </p>
-
-      <h3>12. التواصل</h3>
-      <p>
-        للاستفسارات المتعلقة بالشروط والأحكام، يمكن التواصل معنا
-        عبر البريد الإلكتروني
-        <a href="mailto:abomalak666666666666@gmail.com">abomalak666666666666@gmail.com</a>
-        أو الهاتف <a href="tel:01559325688">01559325688</a>
-        أو <a href="https://wa.me/201559325688" target="_blank" rel="noopener">واتساب</a>.
-      </p>
-
-    </div>
-  </div>
-</section>
-
+<section class="s" id="about"><div class="w about">
+<div>
+<h2>دليل مرسى مطروح اللي كنت بتدور عليه</h2>
+<p>مطروح الروح تطبيق سياحي وخدمي للزائرين وأهالي مرسى مطروح. بدل ما تسأل وتدوّر في مجموعات كتير، هتلاقي الإقامة والمطاعم والشواطئ والأنشطة والمواصلات والخدمات الطبية والمنزلية مرتبة في مكان واحد.</p>
+<p>كل مكان له صفحة بالتفاصيل ووسائل التواصل، وفي أغلب الأحيان صور وفيديوهات تساعدك تقرر قبل ما تتصل.</p>
+</div>
+<div class="facts">
+<div><b>📍</b>الأقرب إليك بالموقع الجغرافي</div>
+<div><b>📞</b>تواصل مباشر مع مقدم الخدمة</div>
+<div><b>🎥</b>صور وفيديوهات للأماكن والوحدات</div>
+<div><b>🧭</b>أقسام واضحة لكل احتياج</div>
+</div></div></section>
+
+<section class="s sand" id="services"><div class="w">
+<div class="hd"><h2>كل اللي تحتاجه في رحلتك</h2><p>أقسام تغطي الرحلة من أول الحجز لحد آخر يوم على الشاطئ.</p></div>
+<div class="sv">
+<div><span class="ic" style="--c:#d8f0ef">🏨</span><h3>الإقامة والمصايف</h3><p>شقق مصيفية وفنادق وشاليهات في مرسى مطروح، مع الصور وبيانات التواصل وأسعار بعض الوحدات.</p></div>
+<div><span class="ic" style="--c:#ffe3cf">🍽️</span><h3>المطاعم والكافيهات</h3><p>مطاعم وكافيهات ومقاهي تقضي فيها وقتك على الكورنيش وفي وسط البلد.</p></div>
+<div><span class="ic" style="--c:#d8f0ef">🏝️</span><h3>الشواطئ والأماكن</h3><p>شواطئ مطروح ومعالمها السياحية، مع المواقع والمعلومات المتاحة.</p></div>
+<div><span class="ic" style="--c:#ffe3cf">🚤</span><h3>الأنشطة الترفيهية</h3><p>رحلات بحرية ويخوت وسفاري وألعاب مائية وأكوا بارك.</p></div>
+<div><span class="ic" style="--c:#d8f0ef">🚕</span><h3>المواصلات والتنقل</h3><p>تاكسي وفان وميكروباص ورحلات داخلية ووسائل الوصول للشواطئ.</p></div>
+<div><span class="ic" style="--c:#ffe3cf">🏥</span><h3>الخدمات الطبية</h3><p>عيادات وصيدليات ومعامل ومراكز أشعة.</p></div>
+<div><span class="ic" style="--c:#d8f0ef">📍</span><h3>الأقرب إليك</h3><p>فعّل الموقع وشوف الأماكن والخدمات اللي حواليك فورًا.</p></div>
+<div><span class="ic" style="--c:#ffe3cf">🏪</span><h3>المحلات والخدمات اليومية</h3><p>بقالة ومحلات وورش وخدمات منزلية للاحتياجات اليومية.</p></div>
+<div><span class="ic" style="--c:#d8f0ef">🎥</span><h3>صور وفيديوهات</h3><p>شاهد الأماكن والوحدات قبل التواصل لتكوين فكرة أوضح.</p></div>
+</div></div></section>
+
+<section class="s dark" id="places"><div class="w">
+<div class="hd"><h2>اكتشف شواطئ مرسى مطروح ووجهاتها</h2><p>من الغرام وروميل لحد كليوباترا وعجيبة، الأماكن دي بتتعرف عليها أسهل من خلال التطبيق.</p></div>
+<div class="pc">
+<figure><svg viewBox="0 0 300 180" role="img" aria-label="رسم لصخور شاطئ الغرام"><use href="#bg" width="300" height="180"/><path d="M20 122V86q16-30 36-14 10-26 34-8 22 14 16 58z" fill="#8c6c4c"/><path d="M118 122V92q14-22 30 0v30z" fill="#7a5c3f"/><path d="M12 122q22 8 44 0t44 0 40 0" fill="none" stroke="#fff" stroke-width="3"/></svg><figcaption><strong>شاطئ الغرام</strong>من أشهر مزارات المدينة، وارتبط اسمه بفيلم «شاطئ الغرام».</figcaption></figure>
+<figure><svg viewBox="0 0 300 180" role="img" aria-label="رسم لجزيرة وشاطئ روميل"><use href="#bg" width="300" height="180"/><path d="M130 118q34-38 78-8 24 8 50 8v8H130z" fill="#f3dfb8"/><path d="M158 106q20-24 44 0z" fill="#8c6c4c"/><rect x="240" y="70" width="8" height="42" fill="#fff"/><path d="M238 70h12l-6-12z" fill="#10282e"/></svg><figcaption><strong>شاطئ روميل</strong>شاطئ شهير سُمّي باسم القائد روميل، وفي المدينة متحف يحمل اسمه.</figcaption></figure>
+<figure><svg viewBox="0 0 300 180" role="img" aria-label="رسم لصخور حمام كليوباترا"><use href="#bg" width="300" height="180"/><path d="M0 124V80q40-12 70 10l12 34z" fill="#7a5c3f"/><path d="M300 124V84q-50-14-80 6l-16 34z" fill="#8c6c4c"/><path d="M96 118q14-26 38-10t34-8" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><figcaption><strong>حمام كليوباترا</strong>مزار بصخوره وأمواجه العالية، والتزم دائمًا بتحذيرات السباحة.</figcaption></figure>
+<figure><svg viewBox="0 0 300 180" role="img" aria-label="رسم لهضبة عجيبة"><use href="#bg" width="300" height="180"/><path d="M0 124V52h120l32 72z" fill="#c9a574"/><path d="M120 52l8 10 6 4 6 10 6 6 6 10 6 6 6 8" fill="none" stroke="#8c6c4c" stroke-width="3"/><path d="M146 124q34-14 76 0v6h-76z" fill="#f3dfb8"/></svg><figcaption><strong>شاطئ عجيبة</strong>هضبة وشاطئ يُنزل إليه بالسلالم، على نحو 20 كم غرب المدينة.</figcaption></figure>
+</div>
+<div class="grp"><h3>شواطئ مرسى مطروح</h3><div class="chips"><span>شاطئ الغرام</span><span>شاطئ روميل</span><span>شاطئ كليوباترا</span><span>شاطئ عجيبة</span><span>الشاطئ الأبيض</span><span>شاطئ أم الرخم</span><span>شاطئ الليدو</span><span>شاطئ مطروح العام</span></div></div>
+<div class="grp"><h3>أماكن ومناطق</h3><div class="chips"><span>كورنيش مطروح</span><span>وسط البلد</span><span>متحف روميل</span><span>حمام كليوباترا</span><span>عين كليوباترا</span><span>متحف آثار مطروح</span><span>القرية البدوية وكهف الملح</span></div></div>
+<div class="grp"><h3>وجهات قريبة على الساحل الشمالي والغربي</h3><div class="chips"><span>العلمين</span><span>سيدي عبد الرحمن</span><span>الضبعة</span><span>الحمام</span><span>رأس الحكمة</span><span>النجيلة</span><span>سيدي براني</span><span>السلوم</span><span>سيوة</span></div></div>
+<p class="txt">سواء كنت بتخطط لمصيف في مطروح أو رحلة يوم أو سفر على الساحل، مطروح الروح بيساعدك تختار مكان الإقامة والأكل والنشاط المناسب وتوصله بسهولة.</p><p class="txt" style="margin-top:8px">تنبيه: تعلن مدينة مطروح أحيانًا منع السباحة في بعض الشواطئ المفتوحة (مثل الأبيض وأم الرخم وعجيبة) عند ارتفاع الأمواج، وتُعد كليوباترا والغرام مزارات للزيارة والتصوير. التزم دائمًا بتحذيرات المدينة.</p>
+</div></section>
+
+<section class="s" id="how"><div class="w">
+<div class="hd"><h2>تبدأ إزاي؟</h2><p>ثلاث خطوات وتبقى جاهز.</p></div>
+<div class="st">
+<div><b>1</b><h3>حمّل التطبيق</h3><p>نزّل مطروح الروح من Google Play.</p></div>
+<div><b>2</b><h3>اختر القسم</h3><p>تصفّح الأقسام أو استخدم الأقرب إليك.</p></div>
+<div><b>3</b><h3>تواصل مباشرة</h3><p>اتصل أو راسل مقدم الخدمة واتفق معاه.</p></div>
+</div>
+<div class="note"><strong>تنويه:</strong> مطروح الروح دليل معلومات وتواصل، ولا ينفذ الحجوزات ولا يستلم مدفوعات نيابة عن مقدمي الخدمات. تأكد من الأسعار والتوافر مباشرة معهم.</div>
+</div></section>
+
+<section class="band" id="download"><div class="w">
+<h2>ابدأ رحلتك مع مطروح الروح</h2>
+<p>الإصدار 1.1.2 متاح لأجهزة Android</p>
+<a class="btn b3" href="https://play.google.com/store/apps/details?id=com.mr.matrouhrouh" target="_blank" rel="noopener">▶ حمّل من Google Play</a>
+<svg viewBox="0 0 600 84" style="display:block;width:min(520px,92%);margin:30px auto 0" aria-hidden="true"><path d="M240 54h124l-16 16H256z" fill="#10282e"/><path d="M296 50V14l44 36z" fill="#fff"/><path d="M290 50V24l-34 26z" fill="#fff" opacity=".7"/><path d="M0 70q25-10 50 0t50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0 50 0" fill="none" stroke="#10282e" stroke-width="3" opacity=".5"/></svg></div></section>
+
+<section class="s sand" id="faq"><div class="w">
+<div class="hd"><h2>الأسئلة الشائعة</h2></div>
+<div class="faq">
+<details><summary>ما هو تطبيق مطروح الروح؟</summary><p>دليل سياحي وخدمي لاكتشاف الأماكن والخدمات والأنشطة في مرسى مطروح في مكان واحد.</p></details>
+<details><summary>هل أحجز شقة أو فندق من التطبيق؟</summary><p>لا. التطبيق يعرض المعلومات ووسائل التواصل، والاتفاق والحجز والدفع يتمان مباشرة مع مقدم الخدمة.</p></details>
+<details><summary>هل التطبيق متاح للآيفون؟</summary><p>الإصدار المتاح حاليًا لأجهزة Android على Google Play.</p></details>
+<details><summary>كيف تعمل خاصية «الأقرب إليك»؟</summary><p>بعد موافقتك على إذن الموقع، يعرض لك التطبيق الأماكن والخدمات الأقرب إليك. تقدر توقف الإذن من إعدادات الهاتف في أي وقت.</p></details>
+<details><summary>كيف أطلب حذف بياناتي أو إعلاني؟</summary><p>تواصل معنا بأي وسيلة من قسم <a href="#delete-data" style="color:var(--turq);font-weight:700">حذف البيانات</a> وسننفذ الطلب بعد التحقق من صاحبه.</p></details>
+<details><summary>أملك نشاطًا وأريد إدراجه في الدليل</summary><p>تواصل معنا عبر واتساب أو البريد الإلكتروني وسنرد عليك.</p></details>
+</div></div></section>
+
+<section class="s" id="contact"><div class="w">
+<div class="hd"><h2>تواصل مع مطروح الروح</h2><p>للاستفسارات والملاحظات وطلبات الإدراج أو التعديل أو الحذف.</p></div>
+<div class="ct">
+<a href="https://wa.me/201559325688" target="_blank" rel="noopener"><b>💬</b><strong>واتساب</strong><span>01559325688</span></a>
+<a href="tel:01559325688"><b>📞</b><strong>الهاتف</strong><span>01559325688</span></a>
+<a href="mailto:abomalak666666666666@gmail.com"><b>✉️</b><strong>البريد الإلكتروني</strong><span>abomalak666666666666@gmail.com</span></a>
+</div>
+<div class="soc">
+<a href="https://www.facebook.com/profile.php?id=61586297591303" target="_blank" rel="noopener">Facebook</a>
+<a href="https://www.instagram.com/matrouh.rouh" target="_blank" rel="noopener">Instagram</a>
+<a href="https://youtube.com/@matruhrouh" target="_blank" rel="noopener">YouTube</a>
+</div></div></section>
+
+<section class="s sand" id="privacy"><div class="w lg">
+<h2>سياسة الخصوصية</h2><span class="d">آخر تحديث: 24 نوفمبر 2026</span>
+<p>نحترم خصوصية مستخدمي تطبيق مطروح الروح، وتوضح هذه الصفحة باختصار كيف نتعامل مع المعلومات المرتبطة باستخدامه.</p>
+<ul>
+<li><strong>الموقع الجغرافي:</strong> قد يطلب التطبيق إذن الموقع عند استخدام «الأقرب إليك» لعرض الأماكن والخدمات القريبة منك. الإذن اختياري، ويمكنك رفضه أو إيقافه من إعدادات الجهاز، وقد لا تعمل هذه الخاصية بدونه.</li>
+<li><strong>المعلومات التقنية:</strong> قد تُعالَج بيانات تشغيل التطبيق ومعلومات الجهاز عبر الخدمات التقنية اللازمة لعمله، مثل الخرائط والاستضافة ومتجر التطبيقات.</li>
+<li><strong>استخدام المعلومات:</strong> لتشغيل الوظائف وعرض الخدمات القريبة وتحسين الأداء ومعالجة الأخطاء وحماية التطبيق من إساءة الاستخدام.</li>
+<li><strong>المشاركة:</strong> لا نبيع البيانات الشخصية. قد تتعامل الخدمات التقنية التابعة لأطراف أخرى مع بعض البيانات وفق سياساتها. وعند تواصلك مع مقدم خدمة، فما تشاركه معه يخضع لوسيلة التواصل وسياسة الطرف الذي تتواصل معه.</li>
+<li><strong>الروابط الخارجية:</strong> تخضع المواقع والخدمات الخارجية لسياسات الخصوصية الخاصة بها.</li>
+<li><strong>الأمان والاحتفاظ:</strong> نتخذ تدابير مناسبة لحماية المعلومات ونحتفظ بها بالقدر اللازم لأغراضها، مع العلم أنه لا توجد وسيلة نقل أو تخزين إلكتروني آمنة بصورة مطلقة.</li>
+<li><strong>الأطفال:</strong> لا نجمع بيانات شخصية من الأطفال عمدًا دون الموافقات اللازمة وفق القوانين المعمول بها.</li>
+<li><strong>التعديلات:</strong> قد نحدّث هذه السياسة عند الحاجة وننشر النسخة الجديدة هنا مع تاريخ التحديث.</li>
+<li><strong>للاستفسار:</strong> <a href="mailto:abomalak666666666666@gmail.com">البريد الإلكتروني</a> أو <a href="https://wa.me/201559325688" target="_blank" rel="noopener">واتساب</a>.</li>
+</ul>
+</div></section>
+
+<section class="s" id="delete-data"><div class="w lg">
+<h2>حذف البيانات</h2>
+<p>يمكن للمستخدمين ومقدمي الخدمات وأصحاب الأنشطة المدرجة طلب حذف بياناتهم أو تعديلها أو إزالة نشاطهم من الدليل في أي وقت، بالتواصل معنا بأي وسيلة من التالية. سننفذ الطلب خلال مدة معقولة بعد التحقق من صاحبه، ويقتصر التنفيذ على البيانات التي نتحكم فيها.</p>
+<div class="box">
+<p><strong>واتساب:</strong> <a href="https://wa.me/201559325688" target="_blank" rel="noopener">01559325688</a> &nbsp;·&nbsp; <strong>الهاتف:</strong> <a href="tel:01559325688">01559325688</a></p>
+<p style="margin:0"><strong>البريد:</strong> <a href="mailto:abomalak666666666666@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20-%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%B1%D9%88%D8%AD">abomalak666666666666@gmail.com</a></p></div>
+<p style="margin-top:12px;font-size:13px">من فضلك لا ترسل كلمات مرور أو بيانات دفع.</p>
+</div></section>
+
+<section class="s sand" id="terms"><div class="w lg">
+<h2>الشروط والأحكام</h2><span class="d">آخر تحديث: 24 نوفمبر 2026</span>
+<ul>
+<li><strong>طبيعة التطبيق:</strong> دليل سياحي وخدمي يعرض معلومات عن الأماكن والخدمات في مرسى مطروح ووسائل التواصل مع مقدميها.</li>
+<li><strong>التعامل مع مقدمي الخدمات:</strong> الأسعار والحجوزات والتوافر والدفع تتم مباشرة بين المستخدم ومقدم الخدمة، ولا يعمل التطبيق وسيطًا ولا يحصّل مدفوعات.</li>
+<li><strong>دقة المعلومات:</strong> قد تتغير الأسعار والمواعيد والتفاصيل، ولا نضمن أن تكون كل المعلومات محدثة دائمًا. تأكد منها قبل أي اتفاق.</li>
+<li><strong>الاستخدام:</strong> يلتزم المستخدم باستخدام التطبيق لأغراض مشروعة وبعدم تعطيله أو إساءة استخدام محتواه.</li>
+<li><strong>الملكية الفكرية:</strong> المحتوى والعلامات والأسماء محفوظة لأصحابها، ولا يجوز نسخها دون إذن.</li>
+<li><strong>حدود المسؤولية:</strong> لا يتحمل التطبيق مسؤولية الاتفاقات بين المستخدمين ومقدمي الخدمات أو جودة خدماتهم.</li>
+<li><strong>التحديث:</strong> قد نعدل التطبيق أو هذه الشروط عند الحاجة، وتُنشر النسخة المحدثة هنا.</li>
+</ul>
+</div></section>
 </main>
 
-<footer>
-  <div class="container">
-
-    <div class="footer-grid">
-
-      <div>
-        <div class="footer-brand">🌊 مطروح الروح</div>
-        <p>
-          دليلك السياحي والخدمي لاكتشاف مرسى مطروح.
-          أماكن وخدمات وأنشطة متنوعة في مكان واحد.
-        </p>
-        <p style="margin-top:12px;color:#ffdc8b;font-weight:800;">
-          رحلة جوه الرحلة
-        </p>
-      </div>
-
-      <div>
-        <h3>روابط مهمة</h3>
-        <div class="footer-links">
-          <a href="#home">الرئيسية</a>
-          <a href="#about">عن التطبيق</a>
-          <a href="#features">مميزات التطبيق</a>
-          <a href="#download">تحميل التطبيق</a>
-          <a href="#faq">الأسئلة الشائعة</a>
-          <a href="#contact">تواصل معنا</a>
-        </div>
-      </div>
-
-      <div>
-        <h3>المعلومات القانونية</h3>
-        <div class="footer-links">
-          <a href="#privacy">سياسة الخصوصية</a>
-          <a href="#delete-data">طلب حذف البيانات</a>
-          <a href="#terms">الشروط والأحكام</a>
-          <a href="#contact">بيانات التواصل والمطور</a>
-        </div>
-      </div>
-
-      <div>
-        <h3>بيانات التواصل</h3>
-        <div class="footer-links">
-          <a href="mailto:abomalak666666666666@gmail.com">البريد الإلكتروني</a>
-          <a href="tel:01559325688">01559325688</a>
-          <a href="https://wa.me/201559325688" target="_blank" rel="noopener">واتساب</a>
-        </div>
-        <p style="margin-top:15px;">المطور: محمد جلال صالح</p>
-        <p><strong>M-G-S</strong></p>
-      </div>
-
-    </div>
-
-    <div class="copyright">
-      جميع الحقوق محفوظة © 2026 مطروح الروح
-      <br>
-      الإصدار 1.1.2
-    </div>
-
-  </div>
-</footer>
-
-<a href="#home" class="back-top" aria-label="العودة إلى الأعلى">↑</a>
-
+<footer><div class="w">
+<div class="fg">
+<div><div class="fb">🌊 مطروح الروح</div><p>دليلك السياحي والخدمي لاكتشاف مرسى مطروح. رحلة جوه الرحلة.</p><p style="margin-top:8px">المطور: محمد جلال صالح · M-G-S</p></div>
+<div><h3>الصفحة</h3><a href="#services">الأقسام</a><a href="#places">الشواطئ والأماكن</a><a href="#faq">الأسئلة الشائعة</a><a href="#contact">تواصل معنا</a></div>
+<div><h3>قانوني</h3><a href="#privacy">سياسة الخصوصية</a><a href="#delete-data">حذف البيانات</a><a href="#terms">الشروط والأحكام</a></div>
+</div>
+<div class="cp">جميع الحقوق محفوظة © 2026 مطروح الروح · الإصدار 1.1.2</div>
+</div></footer>
 </body>
 </html>
